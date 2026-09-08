@@ -44,6 +44,28 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const COMPRESSIBLE = /^(text|application\/(json|javascript|xml)|image\/svg|audio\/x-mpegurl)/;
 const COMPRESS_MIN = 1024;
 
+// Sikistirilmis ciktiyi bellekte tut: katalog dosyalari her istekte yeniden
+// sikistirilmasin. Anahtar dosya yolu + degisiklik zamani, boylece katalog
+// yenilendiginde onbellek kendiliginden gecersizlesir.
+const zcache = new Map();
+function compressed(file, mtime, enc, data) {
+  const key = enc + '|' + file + '|' + mtime;
+  const hit = zcache.get(key);
+  if (hit) return Promise.resolve(hit);
+  return new Promise((resolve) => {
+    const cb = (e, out) => {
+      const buf = e ? null : out;
+      if (buf) {
+        if (zcache.size > 64) zcache.clear();
+        zcache.set(key, buf);
+      }
+      resolve(buf);
+    };
+    if (enc === 'br') zlib.brotliCompress(data, { params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 5 } }, cb);
+    else zlib.gzip(data, { level: 6 }, cb);
+  });
+}
+
 const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.ico': 'image/x-icon', '.m3u': 'audio/x-mpegurl' };
 
 const enc = (u) => Buffer.from(u, 'utf8').toString('base64url');
@@ -147,7 +169,9 @@ const server = http.createServer(async (req, res) => {
   while (rel.startsWith('/') || rel.startsWith(SEP)) rel = rel.slice(1);
   const file = path.join(PUB, rel);
   if (!file.startsWith(PUB)) { res.writeHead(403); return res.end('forbidden'); }
-  fs.readFile(file, (err, data) => {
+  fs.stat(file, (statErr, st) => {
+  if (statErr) { res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' }); return res.end('bulunamadi: ' + p); }
+  fs.readFile(file, async (err, data) => {
     if (err) { res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' }); return res.end('bulunamadi: ' + p); }
     const ext = path.extname(file).toLowerCase();
     const type = MIME[ext] || 'application/octet-stream';
@@ -169,20 +193,21 @@ const server = http.createServer(async (req, res) => {
       String(req.headers['accept-encoding'] || '')
         .split(',').map((x) => x.split(';')[0].trim().toLowerCase()),
     );
-    if (data.length >= COMPRESS_MIN && COMPRESSIBLE.test(type)) {
-      if (accept.has('br')) {
-        head['Content-Encoding'] = 'br';
-        return zlib.brotliCompress(data, {
-          params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 5 },
-        }, (e, out) => { res.writeHead(200, head); res.end(e ? data : out); });
-      }
-      if (accept.has('gzip')) {
-        head['Content-Encoding'] = 'gzip';
-        return zlib.gzip(data, { level: 6 }, (e, out) => { res.writeHead(200, head); res.end(e ? data : out); });
+    const enc = data.length >= COMPRESS_MIN && COMPRESSIBLE.test(type)
+      ? (accept.has('br') ? 'br' : accept.has('gzip') ? 'gzip' : null)
+      : null;
+
+    if (enc) {
+      const out = await compressed(file, st.mtimeMs, enc, data);
+      if (out) {
+        head['Content-Encoding'] = enc;
+        res.writeHead(200, head);
+        return res.end(out);
       }
     }
     res.writeHead(200, head);
     res.end(data);
+  });
   });
 });
 
