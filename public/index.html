@@ -370,6 +370,8 @@ const pool = () => ALL.filter(c => c.co === CO);
  *  Radyo : sayfa https olduğundan yayın da https olmalı; HLS ise ayrıca CORS
  */
 function webPlayable(c) {
+  // t = sertifikası geçerli (https sayfada gecersiz sertifikali kaynak oynatilamaz)
+  if (c.t === 0) return false;
   if (isRadio()) return !!c.s && (!c.hls || !!c.d);
   return !!c.d;
 }

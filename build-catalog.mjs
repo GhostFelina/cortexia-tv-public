@@ -212,8 +212,13 @@ list.forEach((c, i) => { c.i = i; });
 // mevcut CC bayraklarini koru (probe-cc.mjs sonradan gunceller)
 try {
   const old = JSON.parse(fs.readFileSync('public/channels.json', 'utf8'));
-  const ccMap = new Map(old.channels.map((c) => [(c.co || 'us') + '|' + c.name, c.cc]));
-  list.forEach((c) => { const v = ccMap.get(c.co + '|' + c.name); if (v !== undefined) c.cc = v; });
+  const keep = new Map(old.channels.map((c) => [(c.co || 'us') + '|' + c.name, { cc: c.cc, t: c.t }]));
+  list.forEach((c) => {
+    const v = keep.get(c.co + '|' + c.name);
+    if (!v) return;
+    if (v.cc !== undefined) c.cc = v.cc;
+    if (v.t !== undefined) c.t = v.t;
+  });
 } catch { /* ilk calistirma */ }
 
 const counts = {};

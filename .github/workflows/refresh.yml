@@ -88,6 +88,9 @@ jobs:
           done
           node build-radio.mjs
 
+      - name: Sertifika taramasi
+        run: node probe-tls.mjs
+
       - name: Guvenlik denetimi
         run: node guvenlik-denetimi.mjs
 

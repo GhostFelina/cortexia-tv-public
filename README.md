@@ -25,9 +25,11 @@ Sunucu HLS manifestlerini kendi proxy'sine yeniden yazarak tarayıcının CORS
 engelini aşar; hotlink koruması olan logoları da o taşır.
 
 **Web (statik sürüm)** — sunucusuz, doğrudan oynatma. Kanalların
-**%98'i (3501)** kendi CORS başlığını gönderdiği için tarayıcıda proxy olmadan
+**%98'i (3478)** kendi CORS başlığını gönderip geçerli sertifika sunduğu için tarayıcıda proxy olmadan
 açılır. Radyoda ölçüt farklı: sayfa https olduğundan istasyonun da https olması
-gerekir (**2083 istasyon**), HLS ise ayrıca CORS. Ses/video hiçbir zaman siteden
+gerekir (**2052 istasyon**), HLS ise ayrıca CORS. Sertifikası geçersiz
+kaynaklar web sürümünde listelenmez — tarayıcı zaten oynatmaz; yerelde
+proxy üzerinden çalışmayı sürdürürler. Ses/video hiçbir zaman siteden
 geçmez, doğrudan yayıncıdan gelir. Oynatıcı hangi ortamda olduğunu `/__local`
 uç noktasıyla kendi anlar.
 
@@ -89,7 +91,8 @@ Kanallari-Yenile.bat
   ├── build-epg.mjs        yayın akışı (XMLTV → kompakt JSON)
   ├── fetch-radio.mjs      Radio Browser'dan istasyonlar
   ├── test-radio.mjs       ICY akışı / HLS / .pls doğrulaması
-  └── build-radio.mjs      radyo kataloğu (tür, bit hızı, popülerlik)
+  ├── build-radio.mjs      radyo kataloğu (tür, bit hızı, popülerlik)
+  └── probe-tls.mjs        sertifika geçerliliği (web sürümü için şart)
 
 server.mjs (yerel)
   ├── public/index.html    arayüz + hls.js (yerel, CDN'e bağımlı değil)
