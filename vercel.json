@@ -1,0 +1,25 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "public",
+  "buildCommand": null,
+  "installCommand": null,
+  "framework": null,
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/hls.min.js",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    },
+    {
+      "source": "/(channels|epg).json",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, s-maxage=1800, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/(.*).m3u",
+      "headers": [
+        { "key": "Content-Type", "value": "audio/x-mpegurl; charset=utf-8" },
+        { "key": "Content-Disposition", "value": "attachment" }
+      ]
+    }
+  ]
+}

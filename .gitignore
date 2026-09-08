@@ -1,0 +1,8 @@
+# ham kaynak listeler ve test ciktilari - betikler yeniden uretir
+data/
+node_modules/
+.vercel/
+*.log
+
+# public/ icindekiler uretilmis ama dagitim icin gerekli:
+# channels.json, epg.json, TV*.m3u repoda kalir

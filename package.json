@@ -1,0 +1,16 @@
+{
+  "name": "cortexia-tv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dogrulanmis canli TV kanallari - 6 ulke, yerel oynatici ve statik web surumu",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "sources": "node merge-sources.mjs",
+    "catalog": "node build-catalog.mjs",
+    "epg": "node build-epg.mjs",
+    "cc": "node probe-cc.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}
