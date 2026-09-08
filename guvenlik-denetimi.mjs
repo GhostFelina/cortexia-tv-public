@@ -144,6 +144,18 @@ const ext = [...ui.matchAll(/(?:src|href)="(https?:\/\/[^"]+)"/g)].map((m) => m[
 if (!ext.length) ok('arayuzde disaridan yuklenen betik/stil yok');
 else ext.forEach((u) => note('dis kaynak: ' + u));
 
+/* ------------------------------------------- 6b. BOZUK KONTROL KARAKTERI */
+head('6b. Kaynak butunlugu');
+const CTRL = [['backspace', 8], ['bell', 7], ['dikey-tab', 11], ['form-feed', 12], ['escape', 27]];
+let ctrlHit = 0;
+for (const f of readable) {
+  if (!/\.(mjs|js|html|json|yml|css)$/.test(f)) continue;
+  let s2; try { s2 = fs.readFileSync(f, 'utf8'); } catch { continue; }
+  const hits = CTRL.filter(([, c]) => s2.includes(String.fromCharCode(c))).map(([n]) => n);
+  if (hits.length) { bad('bozuk kontrol karakteri (' + hits.join(', ') + ') -> ' + f); ctrlHit++; }
+}
+if (!ctrlHit) ok('kacis dizileri saglam — kazara olusmus kontrol karakteri yok');
+
 /* ---------------------------------------------------------- 7. GIT GECMISI */
 head('7. Git gecmisi');
 try {

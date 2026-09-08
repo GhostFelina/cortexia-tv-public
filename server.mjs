@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import https from 'node:https';
+import zlib from 'node:zlib';
 
 // Bazi yayin sunuculari eksik/hatali sertifika zinciri sunuyor. Dogrulamayi
 // SUREC GENELINDE kapatmak yerine yalnizca yayin isteklerine ozel bir
@@ -38,6 +39,10 @@ const DIR = path.dirname(fileURLToPath(import.meta.url));
 const PUB = path.join(DIR, 'public');
 const PORT = Number(process.env.PORT || 8787);
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+
+// Sikistirilmasi anlamli metin turleri (video/ses zaten sikistirilmis gelir)
+const COMPRESSIBLE = /^(text|application\/(json|javascript|xml)|image\/svg|audio\/x-mpegurl)/;
+const COMPRESS_MIN = 1024;
 
 const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.ico': 'image/x-icon', '.m3u': 'audio/x-mpegurl' };
 
@@ -144,11 +149,39 @@ const server = http.createServer(async (req, res) => {
   if (!file.startsWith(PUB)) { res.writeHead(403); return res.end('forbidden'); }
   fs.readFile(file, (err, data) => {
     if (err) { res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' }); return res.end('bulunamadi: ' + p); }
-    res.writeHead(200, {
-      'Content-Type': MIME[path.extname(file).toLowerCase()] || 'application/octet-stream',
-      'Cache-Control': 'no-store',
+    const ext = path.extname(file).toLowerCase();
+    const type = MIME[ext] || 'application/octet-stream';
+
+    // hls.js surumle birlikte degisir -> uzun onbellek; veri dosyalari tazelenmeli
+    const cache = ext === '.js' ? 'public, max-age=604800'
+                : ext === '.json' || ext === '.m3u' ? 'no-cache'
+                : 'no-store';
+
+    const head = {
+      'Content-Type': type,
+      'Cache-Control': cache,
       'Access-Control-Allow-Origin': '*',   // Cortexia (localhost:5173) durum/katalog okuyabilsin
-    });
+      'Vary': 'Accept-Encoding',
+    };
+
+    // Accept-Encoding'i regex yerine ayristirarak oku
+    const accept = new Set(
+      String(req.headers['accept-encoding'] || '')
+        .split(',').map((x) => x.split(';')[0].trim().toLowerCase()),
+    );
+    if (data.length >= COMPRESS_MIN && COMPRESSIBLE.test(type)) {
+      if (accept.has('br')) {
+        head['Content-Encoding'] = 'br';
+        return zlib.brotliCompress(data, {
+          params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 5 },
+        }, (e, out) => { res.writeHead(200, head); res.end(e ? data : out); });
+      }
+      if (accept.has('gzip')) {
+        head['Content-Encoding'] = 'gzip';
+        return zlib.gzip(data, { level: 6 }, (e, out) => { res.writeHead(200, head); res.end(e ? data : out); });
+      }
+    }
+    res.writeHead(200, head);
     res.end(data);
   });
 });

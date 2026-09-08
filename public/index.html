@@ -193,6 +193,7 @@
   .card:hover .star,.star.on{opacity:1}
   .star.on{color:#f59e0b}
   .empty{grid-column:1/-1;text-align:center;color:var(--dim2);padding:60px 20px;font-size:13px}
+  .sentinel{grid-column:1/-1;height:1px}
 
   ::-webkit-scrollbar{width:10px;height:10px}
   ::-webkit-scrollbar-thumb{background:#252b34;border-radius:10px;border:2px solid var(--bg)}
@@ -347,6 +348,8 @@ let EPG = null;             // { built, ch: { <kanal indeksi>: [[başlangıçDk,
 let cat = store.get("cat", "all");
 let CO = store.get("co", "us");
 let retries = 0, statTimer = null;
+const PAGE = 120;           // tek seferde basılan kart sayısı
+let shown = 0, seer = null;  // kaç kart basıldı / kaydırma gözcüsü
 let srcIdx = 0;             // o an denenen adres (0 = birincil, sonrası c.alt)
 
 /** kanalın deneme sırasındaki adresleri: birincil + yedekler */
@@ -559,20 +562,57 @@ function render() {
 
   const label = q ? '"' + $("#q").value.trim() + '" araması' : (CATS.find(c => c.k === cat) || {}).label;
   $("#lhname").textContent = label;
-  $("#lhcount").textContent = list.length + " kanal";
+  $("#lhcount").textContent = list.length + (isRadio() ? " istasyon" : " kanal");
 
   const g = $("#grid");
   g.innerHTML = "";
+  shown = 0;
+  if (seer) { seer.disconnect(); seer = null; }
   if (!list.length) {
     g.innerHTML = '<div class="empty">' + (cat === "fav"
-      ? "Henüz favori yok. Kanal kartındaki ☆ ile ekleyebilirsin."
-      : cat === "recent" ? "Henüz kanal izlemedin." : "Sonuç bulunamadı.") + '</div>';
+      ? (isRadio() ? "Henüz favori yok. Kartındaki ☆ ile ekleyebilirsin."
+                   : "Henüz favori yok. Kanal kartındaki ☆ ile ekleyebilirsin.")
+      : cat === "recent" ? (isRadio() ? "Henüz istasyon dinlemedin." : "Henüz kanal izlemedin.")
+      : "Sonuç bulunamadı.") + '</div>';
     return;
   }
-  const frag = document.createDocumentFragment();
-  for (const c of list) frag.appendChild(card(c));
-  g.appendChild(frag);
+  paintMore();
   g.scrollTop = 0;
+}
+
+/**
+ * Liste 2000 karta ulaşabiliyor; hepsini birden basmak sekmeyi kilitliyordu
+ * (ABD'de ~17.000 DOM düğümü). Sayfa sayfa basıp sona bir gözcü koyuyoruz.
+ */
+function paintMore() {
+  const g = $("#grid");
+  const slice = VIEW.slice(shown, shown + PAGE);
+  if (!slice.length) return;
+
+  const old = g.querySelector(".sentinel");
+  if (old) old.remove();
+
+  const frag = document.createDocumentFragment();
+  for (const c of slice) frag.appendChild(card(c));
+  g.appendChild(frag);
+  shown += slice.length;
+
+  $("#lhcount").textContent = shown < VIEW.length
+    ? shown + " / " + VIEW.length + (isRadio() ? " istasyon" : " kanal")
+    : VIEW.length + (isRadio() ? " istasyon" : " kanal");
+
+  if (shown < VIEW.length) {
+    const sn = document.createElement("div");
+    sn.className = "sentinel";
+    g.appendChild(sn);
+    if (!seer) {
+      seer = new IntersectionObserver(
+        (es) => { if (es.some((e) => e.isIntersecting)) paintMore(); },
+        { root: g, rootMargin: "800px" },
+      );
+    }
+    seer.observe(sn);
+  }
 }
 
 function card(c) {
@@ -680,6 +720,7 @@ const hideErr = () => $("#errbox").classList.remove("on");
 
 function destroy() {
   if (hls) { try { hls.destroy(); } catch {} hls = null; }
+  V.onerror = null;          // önceki kanaldan kalan hata dinleyicisi tetiklenmesin
   V.removeAttribute("src"); try { V.load(); } catch {}
   clearInterval(statTimer);
 }
