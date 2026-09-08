@@ -1,18 +1,20 @@
 # 📺 Cortexia TV
 
-Doğrulanmış canlı TV kanalları — **6 ülke, 3559 kanal**.
+Doğrulanmış canlı **TV ve radyo** — 6 ülke, **3559 kanal + 2801 radyo istasyonu**.
 Her yayın adresi `manifest → varyant → gerçek segment baytı` düzeyinde test edilir;
 yalnızca gerçekten çalışanlar listeye girer. Dil pratiği için altyazı (CC) desteği,
 yayın akışı (EPG) ve yedek adres devri ile.
 
-| Ülke | Kanal | HD | Altyazılı | Yayın akışı |
-|---|---:|---:|---:|---:|
-| 🇺🇸 ABD | 1936 | 1191 | 1209 | ✓ |
-| 🇬🇧 İngiltere | 425 | 230 | 289 | ✓ |
-| 🇪🇸 İspanya | 411 | 211 | 214 | ✓ |
-| 🇲🇽 Meksika | 314 | 96 | 190 | ✓ |
-| 🇦🇷 Arjantin | 321 | 62 | 186 | ✓ |
-| 🇹🇷 Türkiye | 152 | 122 | 1 | — |
+| Ülke | Kanal | HD | Altyazılı | Yayın akışı | 📻 Radyo |
+|---|---:|---:|---:|:---:|---:|
+| 🇺🇸 ABD | 1936 | 1191 | 1209 | ✓ | 507 |
+| 🇬🇧 İngiltere | 425 | 230 | 289 | ✓ | 501 |
+| 🇪🇸 İspanya | 411 | 211 | 214 | ✓ | 469 |
+| 🇲🇽 Meksika | 314 | 96 | 190 | ✓ | 409 |
+| 🇦🇷 Arjantin | 321 | 62 | 186 | ✓ | 514 |
+| 🇹🇷 Türkiye | 152 | 122 | 1 | — | 401 |
+
+Sol üstteki **📺 TV / 📻 Radyo** düğmesiyle geçiş yapılır; ülke seçimi ikisinde de geçerlidir.
 
 ---
 
@@ -24,8 +26,10 @@ engelini aşar; hotlink koruması olan logoları da o taşır.
 
 **Web (statik sürüm)** — sunucusuz, doğrudan oynatma. Kanalların
 **%98'i (3501)** kendi CORS başlığını gönderdiği için tarayıcıda proxy olmadan
-açılır. Video hiçbir zaman siteden geçmez, doğrudan yayıncıdan gelir.
-Oynatıcı hangi ortamda olduğunu `/__local` uç noktasıyla kendi anlar.
+açılır. Radyoda ölçüt farklı: sayfa https olduğundan istasyonun da https olması
+gerekir (**2083 istasyon**), HLS ise ayrıca CORS. Ses/video hiçbir zaman siteden
+geçmez, doğrudan yayıncıdan gelir. Oynatıcı hangi ortamda olduğunu `/__local`
+uç noktasıyla kendi anlar.
 
 ## Kurulum (başka bir bilgisayara)
 
@@ -82,7 +86,10 @@ Kanallari-Yenile.bat
   ├── retest.mjs           başarısızları protokol/varyant değiştirerek yeniden dener
   ├── build-catalog.mjs    kategori, popülerlik, yedek adres, CORS bayrağı
   ├── probe-cc.mjs         altyazı taraması
-  └── build-epg.mjs        yayın akışı (XMLTV → kompakt JSON)
+  ├── build-epg.mjs        yayın akışı (XMLTV → kompakt JSON)
+  ├── fetch-radio.mjs      Radio Browser'dan istasyonlar
+  ├── test-radio.mjs       ICY akışı / HLS / .pls doğrulaması
+  └── build-radio.mjs      radyo kataloğu (tür, bit hızı, popülerlik)
 
 server.mjs (yerel)
   ├── public/index.html    arayüz + hls.js (yerel, CDN'e bağımlı değil)
@@ -100,10 +107,26 @@ Hepsi reklam destekli ücretsiz servisler ve yayıncıların kendi açık akış
 - [BuddyChewChew/app-m3u-generator](https://github.com/BuddyChewChew/app-m3u-generator) — Pluto TV, Samsung TV Plus, Plex, Roku Channel, Tubi
 - [Free-TV/IPTV](https://github.com/Free-TV/IPTV) — az ama seçilmiş kanallar
 - [i.mjh.nz](https://i.mjh.nz) — yayın akışı (XMLTV)
+- [Radio Browser](https://radio-browser.info) — radyo istasyonları (açık, topluluk dizini)
 
 Bir kanalın birden fazla adresi varsa hepsi test edilir; çalışan ve en yüksek
 çözünürlüklü olan birincil, kalanlar yedek olur. Birincil düşerse oynatıcı
 kendiliğinden yedeğe geçer (**545 kanalda yedek var**).
+
+## Radyo
+
+Radyo istasyonları [Radio Browser](https://radio-browser.info) dizininden gelir
+ve TV'yle aynı mantıkla doğrulanır — ama akış biçimi farklı olduğu için ayrı bir
+doğrulayıcı var: çoğu istasyon bitmeyen bir ICY/Icecast akışıdır, bu yüzden
+birkaç KB ses verisi gelir gelmez bağlantı kapatılır. `.pls` / `.m3u`
+sarmalayıcıları çözülür, HLS istasyonları TV'deki gibi segment düzeyinde test edilir.
+
+Türler etiket ve isimden çıkarılır: haber/söz, spor, pop, rock, klasik, caz,
+elektronik, kültür, yerel, dini, müzik. Sıralama Radio Browser'ın tıklanma ve
+oy sayılarına göre.
+
+Düz ses akışları `<video src>` ile doğrudan çalınır — CORS gerekmez; yalnızca
+HLS istasyonları proxy'ye ya da CORS başlığına ihtiyaç duyar.
 
 ## Ülke eklemek
 

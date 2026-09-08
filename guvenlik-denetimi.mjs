@@ -91,7 +91,7 @@ const TOKENS = [
   ['jwt/auth', /[?&](auth|jwt|sig|signature|hdnts)=([^&"\s]{16,})/gi],
 ];
 let tokHit = 0;
-for (const f of readable.filter((x) => /channels\.json$|\.m3u$/.test(x))) {
+for (const f of readable.filter((x) => /(channels|radio)\.json$|\.m3u$/.test(x))) {
   const s = fs.readFileSync(f, 'utf8');
   for (const [name, re] of TOKENS) {
     const m = s.match(re);

@@ -1,4 +1,4 @@
-name: Kanal katalogunu yenile
+name: Katalogu yenile (TV + radyo)
 
 # Yayin adresleri zamanla oluyor. Bu is akisi haftada bir tum kaynaklari
 # yeniden indirir, her yayini test eder ve yalnizca calisanlari isler.
@@ -78,6 +78,16 @@ jobs:
           node probe-cc.mjs
           node build-epg.mjs
 
+      - name: Radyo istasyonlari
+        run: |
+          node fetch-radio.mjs
+          for c in us gb es mx ar tr; do
+            echo "::group::radyo $c"
+            node test-radio.mjs "$c"
+            echo "::endgroup::"
+          done
+          node build-radio.mjs
+
       - name: Guvenlik denetimi
         run: node guvenlik-denetimi.mjs
 
@@ -86,11 +96,12 @@ jobs:
           set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/channels.json public/epg.json public/TV*.m3u
+          git add public/channels.json public/epg.json public/radio.json public/TV*.m3u
           if git diff --cached --quiet; then
             echo "degisiklik yok"
           else
             n=$(node -p "require('./public/channels.json').total")
-            git commit -m "Kanal katalogu yenilendi: $n calisan kanal"
+            r=$(node -p "require('./public/radio.json').total")
+            git commit -m "Katalog yenilendi: $n kanal, $r radyo"
             git push
           fi
