@@ -1,0 +1,7 @@
+data/
+node_modules/
+.github/
+*.bat
+*.vbs
+*.mjs
+!public/**
