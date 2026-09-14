@@ -9,12 +9,18 @@ https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8
 https://xemzi.short.gy/1000017
 #EXTINF:-1 tvg-logo="https://i.imgur.com/KxHWpQB.png" group-title="GB · eglence",TalkTV
 https://488f4ce4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfVGFsa19ITFM/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB900005KI_20250708T031725SQUARE.png" group-title="GB · eglence",Demand Drama
+https://jmp2.uk/stvp-GB900005KI
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2600012R3_20260707T052032SQUARE.png" group-title="GB · film",Drama Movies - Rakuten TV
 https://jmp2.uk/stvp-GB2600012R3
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2100002R7_20250811T172932SQUARE.png" group-title="GB · eglence",Genie K-Drama
 https://jmp2.uk/stvp-GB2100002R7
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD4100011RE_20260707T052002SQUARE.png" group-title="GB · eglence",K-Drama+
 https://jmp2.uk/stvp-GBBD4100011RE
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="GB · film",Rakuten TV Drama Movies UK
+https://fee09fd665814f51b939b6d106cf5f66.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6093/master.m3u8
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/4d7c5e34-9335-479e-8d6a-e7a80565e45b/Asian_Drama_whtLogo.png" group-title="GB · eglence",Asian Drama
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-685f27cca7111a932d28f1ae/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/65a6a7a00c7ff50008cba07b/colorLogoPNG_1754296852868.png" group-title="GB · dizi",Pluto TV Crime Drama
 https://jmp2.uk/plu-65a6a7a00c7ff50008cba07b.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5ddf91149880d60009d35d27/colorLogoPNG_1764596004853.png" group-title="GB · dizi",Pluto TV Drama
@@ -25,22 +31,30 @@ https://jmp2.uk/stvp-GB3900001TM
 https://jmp2.uk/stvp-GB17000088V
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fGUlCY3.png" group-title="GB · eglence",Pop
 https://amg01753-narrativeentert-popkids-lggb-xyy5k.amagi.tv/ts-eu-w1-n2/playlist/amg01753-narrativeentert-popkids-lggb/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3200003T6_20250107T030811SQUARE.png" group-title="GB · cocuk",Tiny POP
-https://jmp2.uk/stvp-GBBD3200003T6
+#EXTINF:-1 tvg-logo="https://i.imgur.com/zCTf71x.png" group-title="GB · cocuk",Tiny Pop
+https://amg01753-narrativeuk-amg01753c1-lg-gb-1830.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-tinypop-lggb/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC19000017V_20250107T025833SQUARE.png" group-title="GB · eglence",Vevo Pop
 https://jmp2.uk/stvp-GBBC19000017V
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBAJ400045P5_20250107T025757SQUARE.png" group-title="GB · film",Popflix
 https://jmp2.uk/stvp-GBAJ400045P5
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/4d63af64-c260-4f5f-aac1-240aeaa36e90/Plex-WURL_Euronews-Logos_EN_-_astrid_collomb.png" group-title="GB · eglence",Euronews
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-60089d90f682a3002c348299/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2600019ON_20260714T040531SQUARE.png" group-title="GB · haber",Euronews LIVE
 https://jmp2.uk/stvp-GB2600019ON
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5ca1da6c593a5d78f0e7edce/colorLogoPNG.png" group-title="GB · haber",Euronews
-https://jmp2.uk/plu-5ca1da6c593a5d78f0e7edce.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2600015OS_20260901T102422SQUARE.png" group-title="GB · film",Action Movies - Rakuten TV
 https://jmp2.uk/stvp-GB2600015OS
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2600020OP_20260707T052017SQUARE.png" group-title="GB · film",Comedy Movies - Rakuten TV
 https://jmp2.uk/stvp-GB2600020OP
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2600017PX_20251230T031130SQUARE.png" group-title="GB · film",Family - Rakuten TV
 https://jmp2.uk/stvp-GB2600017PX
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="GB · film",Rakuten Top Movies UK
+https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="GB · film",Rakuten TV Action Movies UK
+https://54045f0c40fd442c8b06df076aaf1e85.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6065/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="GB · film",Rakuten TV Comedy Movies UK
+https://9be783d652cd4b099cf63e1dc134c4a3.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6181/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Meew6eX.png" group-title="GB · dizi",Rakuten TV Family Movies UK
+https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2600021LP_20251013T054413SQUARE.png" group-title="GB · eglence",Reality - Rakuten TV
 https://jmp2.uk/stvp-GB2600021LP
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2600014LQ_20250107T031210SQUARE.png" group-title="GB · film",Romance Movies - Rakuten TV
@@ -69,12 +83,12 @@ https://jmp2.uk/plu-612f761008a9e50007984ba0.m3u8
 https://jmp2.uk/plu-625e8cb585ef320007806caf.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/62cbdc45d3cb9f0007128df4/colorLogoPNG_1782825089633.png" group-title="GB · film",Pluto TV Christmas in Summer
 https://jmp2.uk/plu-62cbdc45d3cb9f0007128df4.m3u8
-#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBAK3504525A_20250107T022629SQUARE.png" group-title="GB · eglence",Pluto TV Classic TV
-https://jmp2.uk/stvp-GBAK3504525A
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5d134a74ca91eedee1630faa/colorLogoPNG.png" group-title="GB · dizi",Pluto TV Classic TV
+https://jmp2.uk/plu-5d134a74ca91eedee1630faa.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5c363c2411c5ca053f198f97/colorLogoPNG.png" group-title="GB · dizi",Pluto TV Comedy Movies
 https://jmp2.uk/plu-5c363c2411c5ca053f198f97.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5d4ae94ef1a1bbb350ca41bb/colorLogoPNG.png" group-title="GB · belgesel",Pluto TV Conspiracy
-https://jmp2.uk/plu-5d4ae94ef1a1bbb350ca41bb.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA33000356L_20250107T022632SQUARE.png" group-title="GB · eglence",Pluto TV Conspiracy
+https://jmp2.uk/stvp-GBBA33000356L
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/67f4ffda8ddd60c57dc24e35/colorLogoPNG_1747213241493.png" group-title="GB · eglence",Pluto TV Creature Features
 https://jmp2.uk/plu-67f4ffda8ddd60c57dc24e35.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5e7b6c60fd20c50007910bf5/colorLogoPNG.png" group-title="GB · dizi",Pluto TV Crime
@@ -89,8 +103,8 @@ https://jmp2.uk/plu-65a7ab137bdc8d0008487dfb.m3u8
 https://jmp2.uk/plu-5dc3fc6b9133f500099c7d98.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/685041d936c9361b1921c26c/colorLogoPNG_1753696741486.png" group-title="GB · film",Pluto TV Fantasy & Horror
 https://jmp2.uk/plu-685041d936c9361b1921c26c.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5dc280c9aa218c0009724b4b/colorLogoPNG_1769092247484.png" group-title="GB · belgesel",Pluto TV Food
-https://jmp2.uk/plu-5ddf930548ff9b00090d5686.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBAJ700002OS_20250107T022638SQUARE.png" group-title="GB · eglence",Pluto TV Food
+https://jmp2.uk/stvp-GBAJ700002OS
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5d767b1c126c65d0a307355f/colorLogoPNG.png" group-title="GB · belgesel",Pluto TV History
 https://jmp2.uk/plu-5d4af1803e7983b391d73b13.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/62f4f4b88157cf00075c22db/colorLogoPNG.png" group-title="GB · dizi",Pluto TV Horror
@@ -107,8 +121,8 @@ https://jmp2.uk/plu-67f4fde1fbe45309c7699d6f.m3u8
 https://jmp2.uk/stvp-GBAI5000001A
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5c5c3b948002db3c3e0b262e/colorLogoPNG.png" group-title="GB · film",Pluto TV Movies
 https://jmp2.uk/plu-5ad8d3a31b95267e225e4e09.m3u8
-#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA33000362J_20250107T022650SQUARE.png" group-title="GB · eglence",Pluto TV Paranormal
-https://jmp2.uk/stvp-GBBA33000362J
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f98487036af340008da1e37/colorLogoPNG.png" group-title="GB · film",Pluto TV Paranormal
+https://jmp2.uk/plu-5d4af2ffa9506ab29cf38c38.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/65a7b0814a10d800085ff2df/colorLogoPNG.png" group-title="GB · belgesel",Pluto TV PetrolHeads
 https://jmp2.uk/plu-65a7b0814a10d800085ff2df.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/67ebc1b6432a0e406f141341/colorLogoPNG.png" group-title="GB · eglence",Pluto TV Reality
@@ -151,14 +165,24 @@ https://jmp2.uk/stvp-GB800002OP
 https://jmp2.uk/stvp-GB1800002FA
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB60000381_20260528T054029SQUARE.png" group-title="GB · eglence",A New Life In The Sun
 https://jmp2.uk/stvp-GB60000381
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/d1076185-58d6-411b-ba73-1126837074dd/Plex_cornhole__1500x1000_white_-_Brendan_Canning_white_rdx.png" group-title="GB · eglence",ACL Cornhole TV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-63504925a97bd70eaef54f01/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/c94e3220-9a45-42e9-8bdb-01fc43e0f27c/white_textAction_Hollywood_Movies_logo_dark_-_Angela_Chan.png" group-title="GB · eglence",Action Hollywood Movies
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-66be944f8711311880995280/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/377dc2cb-53dd-4034-84e1-125be2b086c0/2WHITEaddictaTV_Logo_Transparency-Backgroud-Official-Brand_1500x1000px.png" group-title="GB · eglence",AddictaTV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-69d6d88b1790acff6189dea5/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/adventureearth_white.png" group-title="GB · belgesel",Adventure Earth
 https://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AdventureEarth/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/232ndRK.png" group-title="GB · eglence",Afrobeats
 https://stream.ecable.tv/afrobeats/index.m3u8
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/images/ott_channels/logos/AfroLandTV_logo_dark_v3.png" group-title="GB · eglence",AfroLandTV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-60e737a4ebef9d002c4d0a0c/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2300005ML_20251118T015422SQUARE.png" group-title="GB · haber",Al Jazeera
 https://jmp2.uk/stvp-GB2300005ML
 #EXTINF:-1 tvg-logo="https://i.imgur.com/UjOxwdd.png" group-title="GB · belgesel",Alhiwar TV
 https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/bf09a995-48fe-45f6-abb3-56b442494c12/Rock_alternatives_Rdx.png" group-title="GB · eglence",Alternative
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-62efbb8652f7d73061eec498/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB29000089Y_20260901T102412SQUARE.png" group-title="GB · eglence",AMC Cupid
 https://jmp2.uk/stvp-GB29000089Y
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2900009S9_20260901T102418SQUARE.png" group-title="GB · eglence",AMC Reality
@@ -167,26 +191,64 @@ https://jmp2.uk/stvp-GB2900009S9
 https://jmp2.uk/stvp-GBBC2300002GG
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC2300001X5_20260528T054034SQUARE.png" group-title="GB · eglence",American Idol
 https://jmp2.uk/stvp-GBBC2300001X5
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/fb5704c7-3992-49f6-b534-11158f20604e/AngerManagement_logodark_1500x1000_-_Chris_Connors.png" group-title="GB · eglence",Anger Management
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6303ca568a01b5d4dae57d0e/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/d3f6d54b-64cf-44ed-a960-2feb1c4b05c7/US_STVP_AnimationPlus_logo_Color_1500x1000_-_Kai_Schneider.png" group-title="GB · eglence",Animation+
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-674f6a6cf44561420465f9f3/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3000387J_20251013T054251SQUARE.png" group-title="GB · eglence",Antiques Road Trip
 https://jmp2.uk/stvp-GB3000387J
-#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1600006RS_20250107T022522SQUARE.png" group-title="GB · eglence",Are We There Yet?
-https://jmp2.uk/stvp-GBBB1600006RS
-#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1700005U8_20251013T054301SQUARE.png" group-title="GB · cocuk",BABY SHARK TV
-https://jmp2.uk/stvp-GB1700005U8
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/138a25f8-6dfb-4a03-bbec-acaa84628fcd/awty-logo-2.png" group-title="GB · eglence",Are We There Yet?
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-612919784f53e1002c9aa219/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentichistory_white.png" group-title="GB · belgesel",Autentic History
+https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentictravel_white.png" group-title="GB · eglence",Autentic Travel
+https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/f8f7c285-f574-4037-84cd-131a22066e57/Channel_Logo_dark_1500x1000_.png" group-title="GB · cocuk",BABY SHARK TV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-60d4eddeb2fdec002c141137/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1900006O6_20260901T102431SQUARE.png" group-title="GB · cocuk",Barbie & Friends
 https://jmp2.uk/stvp-GB1900006O6
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/f6d14e42-d9be-4f81-893f-cb676d32c473/BassmasterChannel_DarkBackground_-_Will_Flowers.png" group-title="GB · eglence",Bassmaster
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-68caada21fabab6eb2e99331/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/896a3833-8bc3-4d75-8562-756070f8c4f0/beyond_paranormal_WHITE_Bryan_Mcdaid.png" group-title="GB · eglence",Beyond Paranormal
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-64d2c6acb18b113e0c61012a/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/88e0bf85-8b11-4d7d-b67f-5ad11e972b06/Billboard-Espanol-TV_Logo_W.png" group-title="GB · eglence",Billboard Español TV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6a3c2c8c14e447db7984cc3a/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/7a0799ac-c06c-417e-a1d1-3fade474e07d/Plex_billiard__1500x1000__color_rdxfds__1_.png" group-title="GB · eglence",Billiard TV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6334a8e48a7b2a349d903b8c/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB37000128Y_20251111T012218SQUARE.png" group-title="GB · eglence",Bloodline Detectives
 https://jmp2.uk/stvp-GB37000128Y
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/91ffbeaa-df66-4074-83d6-94cacb9622fa/Plex_Totem_BondiRescue_Logo_White_-_Rowan_Williams.png" group-title="GB · eglence",Bondi Rescue
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-69ae4f38e657bab5f7a9b7ec/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/573ed04e-775e-41c9-a367-81b9597eff00/Channel_Logo_Color_Evann_D___AdamoRDX_WHT_LETTERS.png" group-title="GB · eglence",Bowling TV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6970fdabbde579fb71262401/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/9d75cf3b-be95-4785-ab5a-3cfdd4994ab7/BratTV_PlexTV_Logo_DarkBG.png" group-title="GB · eglence",Brat TV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-63d6f6c5a9e88ee909e7ee1f/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB32000024G_20250107T031100SQUARE.png" group-title="GB · film",British Screen Classics
+https://jmp2.uk/stvp-GB32000024G
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/d/epg/channels/logos/gracenote/d300a0c0dd6ffb82aca554ff87e8a364.png" group-title="GB · haber",CBC News
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-64c91830ea7db2f52688c52c/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/e24d3a4c-4948-4155-82c5-b7eec0fa50b8/Cesar_Logo_Transparent_WHTRDX.png" group-title="GB · eglence",Cesar's Pack Leader TV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-693cbba358076a970420f597/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4600003RY_20260310T031821SQUARE.png" group-title="GB · eglence",Chaos on Cam
+https://jmp2.uk/stvp-GB4600003RY
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1700004YC_20260804T051712SQUARE.png" group-title="GB · eglence",CJ ENM K-Food & Travel
 https://jmp2.uk/stvp-GB1700004YC
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB17000066A_20260818T050924SQUARE.png" group-title="GB · eglence",CJ ENM K-Reality
 https://jmp2.uk/stvp-GB17000066A
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png" group-title="GB · haber",CNBC
-https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/393a107b-669d-4e64-9b1f-6fc06e5b858b/Classic_ROCK.png" group-title="GB · eglence",Classic Rock
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-61aaa0cc784a2161d3caf7ff/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3600001NO_20260317T034210SQUARE.png" group-title="GB · haber",CNBC
+https://jmp2.uk/stvp-GBBD3600001NO
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD8000016N_20260714T040523SQUARE.png" group-title="GB · haber",CNN
 https://jmp2.uk/stvp-GBBD8000016N
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1900008O3_20260331T032346SQUARE.png" group-title="GB · haber",CNN Headlines International
 https://jmp2.uk/stvp-GBBD1900008O3
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/2230b4ec-e410-4f49-b5b2-8ac4dfd20c5c/combatv_logo_dark_-_Jordan_Warkol.png" group-title="GB · eglence",CombaTV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-63f0ca427b78030ed9990309/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC9000062G_20260127T040323SQUARE.png" group-title="GB · eglence",Come Dine With Me
+https://jmp2.uk/stvp-GBBC9000062G
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/9/epg/channels/logos/gracenote/92ece91992893ff338b2f45016877c9c.png" group-title="GB · eglence",Comedy Dynamics
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-5efe1de5e0b3f5003f5d9f76/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD25000038Y_20260901T102435SQUARE.png" group-title="GB · eglence",Comedy Hub
 https://jmp2.uk/stvp-GBBD25000038Y
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB300001QO_20250107T030611SQUARE.png" group-title="GB · eglence",Conan O'Brien TV
@@ -195,8 +257,22 @@ https://jmp2.uk/stvp-GB300001QO
 https://jmp2.uk/stvp-GB2500002K0
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1900004ZY_20260528T054045SQUARE.png" group-title="GB · eglence",Cozy Vibes
 https://jmp2.uk/stvp-GB1900004ZY
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/7887d400-2355-41eb-9e9f-3ea13b3f949c/Craftsy_logo_color.png" group-title="GB · eglence",CraftsyTV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6365779dde08f8eec6c3f21f/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/f33d90dc-14d4-4034-8959-30dac5ed085c/CTV-WHITE_PINK_4RDXx.png" group-title="GB · eglence",Creator Television
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-67884bd6d37f2fd48d6220db/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/d041b4b4-65f0-4862-8d26-a0be4c984e2e/Cricket_Gold_Logo_1-1RDX.png" group-title="GB · eglence",Cricket Gold
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-65e0c8c6d899afe817b9d224/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD260000189_20250107T030614SQUARE.png" group-title="GB · eglence",Crime & Justice
 https://jmp2.uk/stvp-GBBD260000189
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/6d933fc7-172f-463f-a4f4-4d08bca2694a/CrimeBeatTV_TT_1500x1000RDX_White_Letters.png" group-title="GB · eglence",Crime Beat TV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-68c98e7460586565cc56baab/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD4100010H1_20260804T051827SQUARE.png" group-title="GB · eglence",Crime Network
+https://jmp2.uk/stvp-GBBD4100010H1
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD4100006KV_20260428T031429SQUARE.png" group-title="GB · eglence",Criminal Confessions
+https://jmp2.uk/stvp-GBBD4100006KV
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1400001E4_20250107T031103SQUARE.png" group-title="GB · belgesel",CURIOSITY Now
+https://jmp2.uk/stvp-GB1400001E4
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3700001AB_20250211T013910SQUARE.png" group-title="GB · eglence",DATELINE 24/7
 https://jmp2.uk/stvp-GBBD3700001AB
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD30000038U_20260421T123903SQUARE.png" group-title="GB · eglence",DAZN Ringside
@@ -205,48 +281,102 @@ https://jmp2.uk/stvp-GBBD30000038U
 https://d1mgh147xpmgs8.cloudfront.net/DeadlyWomen_GB.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4900001NW_20250811T172507SQUARE.png" group-title="GB · eglence",Deadly Women: powered by Banijay
 https://jmp2.uk/stvp-GB4900001NW
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB12000037Y_20251013T054320SQUARE.png" group-title="GB · eglence",Deal Masters
+https://jmp2.uk/stvp-GB12000037Y
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/01fa9a7e-a969-4ac7-b092-afc565133345/DOND_Logo_blktextDark_1500x1000_-_Harry_Marshall__1_WHTTEXT.png" group-title="GB · eglence",Deal Or No Deal
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6a56bff72ad9d298044c58f8/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB38000068U_20250617T031624SQUARE.png" group-title="GB · eglence",Deal or No Deal US
+https://jmp2.uk/stvp-GBBB38000068U
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3000004VR_20250107T030629SQUARE.png" group-title="GB · eglence",Def Jam
 https://jmp2.uk/stvp-GBBD3000004VR
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/cada7234-31ab-4510-929d-e5fa3428331a/Degrassi_TNG_Logordx.png" group-title="GB · eglence",Degrassi
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-636d5aa3dc2c550b145ed422/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2400008GK_20251016T040107SQUARE.png" group-title="GB · cocuk",Dennis and Gnasher
 https://jmp2.uk/stvp-GB2400008GK
-#EXTINF:-1 tvg-logo="https://i.imgur.com/lMICupK.png" group-title="GB · dizi",Dog The Bounty Hunter
-https://amg00276-amg00276c11-rakuten-uk-3446.playouts.now.amagi.tv/playlist/amg00276-aetelevisionnetworksfast-dogthebountyhunterall-rakutenuk/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB27000069E_20250107T030634SQUARE.png" group-title="GB · eglence",Dog The Bounty Hunter
+https://jmp2.uk/stvp-GB27000069E
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/7/epg/channels/logos/gracenote/7c58aad36639018b2b88c6ef55abf98a.png" group-title="GB · eglence",Dog Whisperer
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-652a8b001b5c74bc83cf727c/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB5200001TM_20260421T123838SQUARE.png" group-title="GB · eglence",DP World Tour
 https://jmp2.uk/stvp-GB5200001TM
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vMcSlwm.png" group-title="GB · dizi",Duck Dynasty
-https://amg00276-amg00276c2-rakuten-uk-3449.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/a07750e7-11a2-4563-a402-40ad1d9e7392/xPlex_DrPhil_Channel_Logo_v01RDX.png" group-title="GB · eglence",Dr. Phil
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-66e4cbef38de9754b6b13e90/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2700004BC_20251125T100004SQUARE.png" group-title="GB · eglence",Duck Dynasty
+https://jmp2.uk/stvp-GB2700004BC
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/18c7eba5-bcd4-45bd-9d3a-65d3984fec32/DarkBG_1500x1000.png" group-title="GB · eglence",Dude Perfect
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-68d7f9b53b1f329cea126993/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3200001E2_20250107T030638SQUARE.png" group-title="GB · eglence",Earth Touch
+https://jmp2.uk/stvp-GBBD3200001E2
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/9300cb7f-9eef-4e0f-b0d3-d7469da72cda/EASY_LISTENING.png" group-title="GB · eglence",Easy Listening
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-62ee76b5271f393d2d9f709a/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://static.elektamedia.com/ch/entch.png" group-title="GB · eglence",ENT Channel
 https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-logo="https://static.elektamedia.com/ch/entf.png" group-title="GB · eglence",ENT Family
 https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC2300003ZQ_20260609T043650SQUARE.png" group-title="GB · eglence",Entertainment Hub
 https://jmp2.uk/stvp-GBBC2300003ZQ
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/4d5fc6d1-628c-459a-afd8-061feab68458/ABC-enertains-logo-dark-mode_wht_pink_text.png" group-title="GB · eglence",Entertains
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-69d57d295a891b1ff36c0c5c/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB500006EX_20260324T035037SQUARE.png" group-title="GB · eglence",Escape to the Country
 https://jmp2.uk/stvp-GB500006EX
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/97cac846-984e-4fdc-881a-6d4201d3849f/Euro_hits.png" group-title="GB · eglence",Euro Hits
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-62ee74af52f7d73061eec491/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3800003OS_20260428T031432SQUARE.png" group-title="GB · spor",Eurovision Sport
 https://jmp2.uk/stvp-GB3800003OS
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3700011PO_20251111T012230SQUARE.png" group-title="GB · eglence",Evidence of Evil
 https://jmp2.uk/stvp-GB3700011PO
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2700003KS_20250107T031117SQUARE.png" group-title="GB · eglence",Evolution Earth
+https://jmp2.uk/stvp-GB2700003KS
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB500007VM_20250513T005729SQUARE.png" group-title="GB · eglence",Family Feud
 https://jmp2.uk/stvp-GB500007VM
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/47127441-d5b6-42a3-b641-a7c076d20940/Fashion_PNG_w__transparent_background__All_white_Logo_for_Attribution__-_Yuri_Alexandrov.png" group-title="GB · eglence",FashionTV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6490c01f3b3ce9e1aaad95be/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/4cae556e-d238-4383-b6dc-84de0ff69940/FearFactor_Logo_Dark_1500x1000_-_Harry_Marshall_COLOR_WHITE.png" group-title="GB · eglence",Fear Factor
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-651600fb2ff655e77635c62a/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/f/epg/channels/logos/gracenote/f6e88714b4dae6026720d36ad9de611f.png" group-title="GB · eglence",Fight Network
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-606605549dbfca002d2ae877/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/32c9c7ca-8544-4434-92c5-9a5dd9577746/flashback_70srdx.png" group-title="GB · eglence",Flashback 70s
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-62f15810a3ffe928ef806c75/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1100002L5_20250107T030646SQUARE.png" group-title="GB · haber",FRANCE 24 FAST
 https://jmp2.uk/stvp-GBBD1100002L5
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB21000038X_20250811T172936SQUARE.png" group-title="GB · film",Genie K-Movie
 https://jmp2.uk/stvp-GB21000038X
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2200002CC_20260407T040222SQUARE.png" group-title="GB · spor",GFN Football
 https://jmp2.uk/stvp-GB2200002CC
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KdBr6rG.png" group-title="GB · dizi",Ghost Hunters
+https://amg00353-amg00353c30-samsung-au-3440.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1500003S4_20260901T102446SQUARE.png" group-title="GB · spor",Golf Life
+https://jmp2.uk/stvp-GB1500003S4
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC900008L9_20260901T102329SQUARE.png" group-title="GB · film",Great! Christmas
 https://jmp2.uk/stvp-GBBC900008L9
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC900007Q5_20251125T095955SQUARE.png" group-title="GB · film",Great! Movies
 https://jmp2.uk/stvp-GBBC900007Q5
+#EXTINF:-1 tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb3643.png" group-title="GB · film",GREAT! romance
+https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1200008XG_20260804T051837SQUARE.png" group-title="GB · eglence",H2O & Friends
+https://jmp2.uk/stvp-GB1200008XG
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1500004BF_20260901T102455SQUARE.png" group-title="GB · eglence",Happy Place with Fearne Cotton
+https://jmp2.uk/stvp-GB1500004BF
+#EXTINF:-1 tvg-logo="https://i.imgur.com/P9eT0O9.png" group-title="GB · dizi",Hell's Kitchen
+https://amg00654-itv-amg00654c1-samsung-au-1072.playouts.now.amagi.tv/itv-hellskitchen-samsung/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NE7ddhC.png" group-title="GB · eglence",Hellenic TV
 https://l5.cloudskep.com/hellenictv/htv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB500001HY_20250107T030655SQUARE.png" group-title="GB · eglence",Highway Thru Hell : Powered by Banijay
 https://jmp2.uk/stvp-GB500001HY
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1200002ON_20250107T030658SQUARE.png" group-title="GB · belgesel",History Hunters
+https://jmp2.uk/stvp-GB1200002ON
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1x6zYZr.png" group-title="GB · belgesel",Horse & Country TV
 https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/wvQYWsj.png" group-title="GB · dizi",Inside Crime
-https://aenetworks-insidecrime-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB21000070H_20260818T050946SQUARE.png" group-title="GB · eglence",Inazuma Eleven
+https://jmp2.uk/stvp-GB21000070H
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD500002R4_20250107T030707SQUARE.png" group-title="GB · eglence",Inside Crime
+https://jmp2.uk/stvp-GBBD500002R4
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB310000151_20251118T015428SQUARE.png" group-title="GB · eglence",INTER 24/7
+https://jmp2.uk/stvp-GB310000151
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2700002F7_20250326T013517SQUARE.png" group-title="GB · eglence",Intervention
+https://jmp2.uk/stvp-GB2700002F7
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB400003BM_20250107T030705SQUARE.png" group-title="GB · eglence",INTRAVEL
+https://jmp2.uk/stvp-GB400003BM
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA220000751_20250107T022608SQUARE.png" group-title="GB · eglence",INWILD
 https://jmp2.uk/stvp-GBBA220000751
 #EXTINF:-1 tvg-logo="https://i.imgur.com/55RpaF3.png" group-title="GB · haber",Iran International
@@ -255,10 +385,18 @@ https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIO
 https://jmp2.uk/stvp-GB1800011SF
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD50000084W_20250107T030710SQUARE.png" group-title="GB · eglence",Jack Hanna
 https://jmp2.uk/stvp-GBBD50000084W
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1500005UP_20260901T102504SQUARE.png" group-title="GB · eglence",Joe Media
+https://jmp2.uk/stvp-GB1500005UP
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3400003A9_20250107T031143SQUARE.png" group-title="GB · cocuk",Ketchup TV
 https://jmp2.uk/stvp-GB3400003A9
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4500001NQ_20260421T123835SQUARE.png" group-title="GB · eglence",Letterman TV
 https://jmp2.uk/stvp-GB4500001NQ
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB37000067A_20251230T031133SQUARE.png" group-title="GB · film",Lifetime Movies
+https://jmp2.uk/stvp-GB37000067A
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4600004A9_20260804T051846SQUARE.png" group-title="GB · eglence",Live PD Presents
+https://jmp2.uk/stvp-GB4600004A9
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB430000144_20250107T031148SQUARE.png" group-title="GB · cocuk",LooLoo Kids
+https://jmp2.uk/stvp-GB430000144
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2900010BJ_20260901T102520SQUARE.png" group-title="GB · eglence",Love After Lockup
 https://jmp2.uk/stvp-GB2900010BJ
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD500001F5_20250722T005724SQUARE.png" group-title="GB · belgesel",Love the Planet
@@ -269,18 +407,30 @@ https://jmp2.uk/stvp-GB22000040Z
 https://jmp2.uk/stvp-GBBD25000019N
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB28000063B_20250811T172943SQUARE.png" group-title="GB · eglence",Mayday: Air Disaster
 https://jmp2.uk/stvp-GB28000063B
+#EXTINF:-1 tvg-logo="https://i.imgur.com/q4BBDzw.png" group-title="GB · dizi",Mcleod's Daughters
+https://amg00627-amg00627c5-samsung-nz-2807.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mcleodsdaughters-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vZHtxQb.png" group-title="GB · cocuk",Moonbug Kids
 https://moonbug-rokuus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4300003ZT_20251125T100300SQUARE.png" group-title="GB · eglence",Most Haunted
+https://jmp2.uk/stvp-GB4300003ZT
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA33000557H_20260901T102243SQUARE.png" group-title="GB · film",Moviesphere by Lionsgate
 https://jmp2.uk/stvp-GBBA33000557H
 #EXTINF:-1 tvg-logo="https://i.imgur.com/h1ejU90.png" group-title="GB · film",MovieSphere UK
 https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/K4gwstM.png" group-title="GB · eglence",Mystery TV
-https://aenetworks-mysterytv-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB200005LI_20250107T031155SQUARE.png" group-title="GB · eglence",Mythbusters
-https://jmp2.uk/stvp-GB200005LI
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB900003KR_20250923T010443SQUARE.png" group-title="GB · eglence",Mr Bean Animated
+https://jmp2.uk/stvp-GB900003KR
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4000008O5_20251013T054359SQUARE.png" group-title="GB · eglence",Mr Bean Live Action
+https://jmp2.uk/stvp-GB4000008O5
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" group-title="GB · cocuk",Mr. Bean Animated
+https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD50000320_20250107T030722SQUARE.png" group-title="GB · eglence",Mystery TV
+https://jmp2.uk/stvp-GBBD50000320
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wzzjvcH.png" group-title="GB · dizi",Mythbusters
+https://d2bog959vw5xq.cloudfront.net/playlist/amg00627-banijayfast-mythbusters-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/pw4NZK1.png" group-title="GB · film",MyTime Movie Network
 https://appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2100004H5_20250923T010449SQUARE.png" group-title="GB · belgesel",NatureTime
+https://jmp2.uk/stvp-GB2100004H5
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1500004LG_20250107T030724SQUARE.png" group-title="GB · haber",NBC News NOW
 https://jmp2.uk/stvp-GBBB1500004LG
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1700007PK_20251013T054402SQUARE.png" group-title="GB · film",NEW K-MOVIES
@@ -289,8 +439,12 @@ https://jmp2.uk/stvp-GB1700007PK
 https://jmp2.uk/stvp-GB2700017IP
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC900003B2_20250107T022856SQUARE.png" group-title="GB · eglence",Now 80s
 https://jmp2.uk/stvp-GBBC900003B2
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB300033HI_20250218T040037SQUARE.png" group-title="GB · eglence",Now 90's & 00's
+https://jmp2.uk/stvp-GB300033HI
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GuM4GnX.png" group-title="GB · eglence",NOW Rock
 https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4700003NV_20260622T064044SQUARE.png" group-title="GB · eglence",Padel Time TV
+https://jmp2.uk/stvp-GB4700003NV
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB300036IM_20250218T040040SQUARE.png" group-title="GB · eglence",PGA Tour
 https://jmp2.uk/stvp-GB300036IM
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB700004ET_20250107T031205SQUARE.png" group-title="GB · cocuk",Pocoyo
@@ -313,10 +467,18 @@ https://jmp2.uk/stvp-GB4200009EC
 https://jmp2.uk/stvp-GB1800010BQ
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB51000026A_20260120T031439SQUARE.png" group-title="GB · eglence",Rally.TV FAST+
 https://jmp2.uk/stvp-GB51000026A
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1000005IO_20260805T002817SQUARE.png" group-title="GB · eglence",Real Wild
+https://jmp2.uk/stvp-GBBB1000005IO
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD2300003IK_20250805T005540SQUARE.png" group-title="GB · eglence",Red Bull TV
 https://jmp2.uk/stvp-GBBD2300003IK
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="GB · spor",Red Bull TV UK
 https://1a3566cb46914c5499fbc86fbc4ac87e.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-932-WORBUKENFAST-WHALETVPLUS/932/whaletvplus/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD4900001RG_20250107T030741SQUARE.png" group-title="GB · haber",Reuters
+https://jmp2.uk/stvp-GBBD4900001RG
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2100006GK_20250811T172951SQUARE.png" group-title="GB · eglence",River Monsters
+https://jmp2.uk/stvp-GB2100006GK
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB700007MV_20260707T052921SQUARE.png" group-title="GB · eglence",Rolling Stones Takeover
+https://jmp2.uk/stvp-GB700007MV
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB20009440_20260505T035904SQUARE.png" group-title="GB · eglence",Series K Edge
 https://jmp2.uk/stvp-GB20009440
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB200093HQ_20260505T035908SQUARE.png" group-title="GB · eglence",Series K Legacy
@@ -341,14 +503,24 @@ https://jmp2.uk/stvp-GBBB3800007BN
 https://cd198.anystream.uk:9092/iqapp/t5kb86tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1200006IV_20250506T021119SQUARE.png" group-title="GB · haber",Talk
 https://jmp2.uk/stvp-GB1200006IV
-#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB30003577_20260721T035939SQUARE.png" group-title="GB · spor",talkSPORT
-https://jmp2.uk/stvp-GB30003577
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9d/Talksport_logo.png" group-title="GB · spor",talkSPORT
+https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xP7Ehn8.png" group-title="GB · eglence",Tastemade
 https://tastemade-tdint-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vFllwLd.png" group-title="GB · eglence",TBN UK
 https://live-tbn-ssai.simplestreamcdn.com/v1/master/774d979dd66704abea7c5b62cb34c6815fda0d35/tbn-live/manifest.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB700006X7_20250326T013455SQUARE.png" group-title="GB · eglence",Terra Mater WILD
+https://jmp2.uk/stvp-GB700006X7
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EbMK3Ph.png" group-title="GB · belgesel",Terra Mater WILD English
+https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0343/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/aQ_vvywmcBt4X1SmeEMgT3uf7bb1Z__I9XVwabeg7RrSSEuIhswMlvwhyi0Wl4PlLHwXufLgOg=s900-c-k-c0x00ffffff-no-rj" group-title="GB · dizi",The Chat Show Channel
+https://amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv/playlist/amg00426-littledotstudio-thechatshow-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1100001EB_20250513T005734SQUARE.png" group-title="GB · eglence",The Diary Of A CEO
 https://jmp2.uk/stvp-GB1100001EB
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4000027F_20260421T125758SQUARE.png" group-title="GB · eglence",The Graham Norton Show
+https://jmp2.uk/stvp-GB4000027F
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB200000940_20250811T172958SQUARE.png" group-title="GB · eglence",The Hotel Inspector
+https://jmp2.uk/stvp-GB200000940
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC4000002H3_20260901T102306SQUARE.png" group-title="GB · eglence",The Jamie Oliver Channel
 https://jmp2.uk/stvp-GBBC4000002H3
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC4300005AL_20250107T025817SQUARE.png" group-title="GB · cocuk",The LEGO Channel
@@ -359,6 +531,8 @@ https://jmp2.uk/stvp-GB3600002EB
 https://jmp2.uk/stvp-GBBC900004G9
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2300002AI_20260407T040249SQUARE.png" group-title="GB · eglence",Tipping Point
 https://jmp2.uk/stvp-GB2300002AI
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1100002OE_20260224T031228SQUARE.png" group-title="GB · spor",Top Barça
+https://jmp2.uk/stvp-GB1100002OE
 #EXTINF:-1 tvg-logo="https://static.elektamedia.com/ch/tmc_main.png" group-title="GB · eglence",Totalmusic
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-logo="https://static.elektamedia.com/ch/tmc_00s.png" group-title="GB · eglence",Totalmusic 2000s
@@ -371,20 +545,34 @@ https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_en
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC900001SC_20250107T025823SQUARE.png" group-title="GB · eglence",Trace Urban
 https://jmp2.uk/stvp-GBBC900001SC
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RwZ1hCN.png" group-title="GB · haber",Trailers
+https://amg01821-lovetvchannels-lovemagazineuk-samsungse-p1sf1.amagi.tv/playlist/amg01821-lovetvchannels-lovemagazineuk-samsungse/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD23000021U_20260421T123843SQUARE.png" group-title="GB · cocuk",Transformers
 https://jmp2.uk/stvp-GBBD23000021U
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LK2NFst.png" group-title="GB · dizi",True Crime UK
 https://b6cca454.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9UcnVlQ3JpbWVVS2Zyb21DQlNSZWFsaXR5X0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://vantagetv.ee/vantage_music.png" group-title="GB · eglence",Vantage Music UK
-https://hls.vantagetv.co.uk/vmusicuk_stream/index.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3100003J5_20251013T054433SQUARE.png" group-title="GB · eglence",U&Laughs
+https://jmp2.uk/stvp-GBBD3100003J5
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3100002NU_20250107T153919SQUARE.png" group-title="GB · eglence",U&Real Heroes
+https://jmp2.uk/stvp-GBBD3100002NU
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3100004OI_20250107T030822SQUARE.png" group-title="GB · eglence",U&The Past
+https://jmp2.uk/stvp-GBBD3100004OI
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3100001A8_20260818T051000SQUARE.png" group-title="GB · spor",U&Transport
+https://jmp2.uk/stvp-GBBD3100001A8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1900009UD_20250107T030827SQUARE.png" group-title="GB · eglence",Vevo '70s & '80s
 https://jmp2.uk/stvp-GBBD1900009UD
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC2100002HP_20250107T025831SQUARE.png" group-title="GB · eglence",Vevo '90s & '00s
 https://jmp2.uk/stvp-GBBC2100002HP
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD2300001C0_20250107T030829SQUARE.png" group-title="GB · eglence",Vevo Hip Hop & R&B
 https://jmp2.uk/stvp-GBBD2300001C0
-#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC300003UQ_20250107T025835SQUARE.png" group-title="GB · eglence",WaterBear
-https://jmp2.uk/stvp-GBBC300003UQ
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3400001ND_20250326T013440SQUARE.png" group-title="GB · cocuk",Video Game Heroes
+https://jmp2.uk/stvp-GB3400001ND
+#EXTINF:-1 tvg-logo="https://framerusercontent.com/images/41VQQ7F0fYlp1MX1N4Ixog5QnPI.png" group-title="GB · belgesel",WaterBear
+https://amg01415-waterbearnetwor-waterbear-samsunguk-1h0y8.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsunguk/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA3300050RG_20250107T022808SQUARE.png" group-title="GB · film",wedo movies
+https://jmp2.uk/stvp-GBBA3300050RG
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3100002NB_20260203T045958SQUARE.png" group-title="GB · eglence",Wheels & Steel
+https://jmp2.uk/stvp-GB3100002NB
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4200010V1_20260421T123832SQUARE.png" group-title="GB · eglence",Who Wants to be a Millionaire
 https://jmp2.uk/stvp-GB4200010V1
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB5000002PL_20260113T032601SQUARE.png" group-title="GB · belgesel",Wild Planet
@@ -397,6 +585,8 @@ https://lds-wonder-rakuten.amagi.tv/playlist.m3u8
 https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlist/amg00477-samsungelectron-worldpokertour-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1100001UI_20250527T014801SQUARE.png" group-title="GB · eglence",World War TV
 https://jmp2.uk/stvp-GBBD1100001UI
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB500013LT_20260505T035911SQUARE.png" group-title="GB · spor",Wrestling Legends TV
+https://jmp2.uk/stvp-GB500013LT
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB3800005QO_20260804T051900SQUARE.png" group-title="GB · eglence",XITE Hits
 https://jmp2.uk/stvp-GBBB3800005QO
 #EXTINF:-1 tvg-logo="https://i.imgur.com/N51Rp7E.png" group-title="GB · eglence",XITE Hits UK
@@ -407,34 +597,64 @@ https://jmp2.uk/stvp-GB340000289
 https://jmp2.uk/stvp-GB2000016YM
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" group-title="GB · eglence",Zee One
 https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/59623ed1-b641-4001-b634-b25e307c3c49/123GO_-_Jonathan_Shrank1500x1000.png" group-title="GB · eglence",123GO!
+http://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-63eecb32ac23d1ee072087cb/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/a93dc428-87b4-49ce-834c-94bcad531802/21JS_Logo_Dark.png" group-title="GB · eglence",21 Jump Street
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-66f6b947515e742745f5ca34/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1000002RV_20260804T051802SQUARE.png" group-title="GB · eglence",60 Days in Jail
 https://jmp2.uk/stvp-GB1000002RV
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5VOPFzs.png" group-title="GB · eglence",Anand TV
 https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8
-#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3200005SO_20260324T035031SQUARE.png" group-title="GB · belgesel",Autentic History
-https://jmp2.uk/stvp-GB3200005SO
-#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3200006AZ_20251111T012215SQUARE.png" group-title="GB · eglence",Autentic Travel
-https://jmp2.uk/stvp-GB3200006AZ
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2700011DR_20250107T031058SQUARE.png" group-title="GB · eglence",Ax Men
 https://jmp2.uk/stvp-GB2700011DR
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/e757f7e3-f3de-46f5-b6e0-9aa42bdb61d1/BabyEinstein_logo_1500x1000_light.png.png" group-title="GB · cocuk",Baby Einstein
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-69333216ac5b3f9f53442374/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/1837808e-79a1-439e-9ae2-ff9c4b200b81/FilmRise_BeyondBelief_Logo_Whiterdx.png" group-title="GB · eglence",Beyond Belief
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-64f101b1c4b308f2fe3e7c0c/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/f40521f6-1074-4664-b673-96a2eab164a0/Bizaar_Logo_For_Dark_Background_-_1500_x_1000_-_Michael_Bromberg.png" group-title="GB · eglence",Bizaar
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-689e1f0dd84bfb3d54b6756f/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1074.png" group-title="GB · haber",Bloomberg TV
 https://bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/5e31e123-a40b-41c6-9153-67c983c6d9e6/boot_all-white_1500X1000_PNG_transparent_background.png" group-title="GB · eglence",BOOT
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-5ef11487d33ab9004048a1d3/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/51402fbd-48ad-4307-a1be-a60c692684f6/Logotipo_C4_En_Alerta_1500x1000_for_dark_backgrounds_-_James_Stowe.png" group-title="GB · eglence",C4 en Alerta
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-65b1568052aa31b8f64da064/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/images/ott_channels/logos/camp-spoopy-logo_dark.png" group-title="GB · eglence",Camp Spoopy
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6164a963766ab4f9f57e81b1/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1200004J4_20251013T054304SQUARE.png" group-title="GB · eglence",Cash in the Attic
 https://jmp2.uk/stvp-GB1200004J4
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/705cd2aa-27f6-4fd0-ab27-acbbddc1e3bb/FilmRise_Cheaters_Logo_Colorrdx.png" group-title="GB · eglence",Cheaters
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-64f115ad2173e54397ce0d40/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://i.imgur.com/MyiA92q.png" group-title="GB · eglence",Clubbing TV UK
 https://a-cdn.klowdtv.com/live3/clubbingtv_720p/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3700008XB_20260804T051817SQUARE.png" group-title="GB · eglence",Cops & Docs
 https://jmp2.uk/stvp-GB3700008XB
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/e6696e27-0079-499b-b4c9-b31300a4b511/FilmRise_CornerGas_Logo_FullColor.png" group-title="GB · eglence",Corner Gas
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-66ce3cf459062698a13c39df/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/15c628ca-8ef6-4074-873c-8f491ed51f55/crime_scene_tv_white.png" group-title="GB · eglence",Crime Scene TV
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6615360a8423b8d7e61a099c/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/f2194eb4-c78d-4502-a3ab-616eb2624c7d/FilmRise_DeathValleyDays_White_LogoRDX.png" group-title="GB · eglence",Death Valley Days
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6674b68af04cf4bb9233c916/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/03fe73df-6585-49b7-bdd5-5ea605c4086f/FilmRise_DickVanDykeShow_Logo_Color.png" group-title="GB · eglence",Dick Van Dyke
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6449369eb3ff17382cae5801/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/6af3c623-6bc7-4062-8c5a-c278bc81ba96/FilmRise_DRGMedicalExaminer_Logo_Color.png" group-title="GB · eglence",Dr. G: Medical Examiner
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-6449369eb3ff17382cae5807/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://i.imgur.com/dtrTfZC.png" group-title="GB · haber",Dunya News (UK Feed)
 https://ukintl.dunyanews.tv/liveuk/ngrp:dunyalive_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/VIpQJxL.png" group-title="GB · dizi",FailArmy
-https://failarmy-international-gb.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBAJ40003642_20260210T040011SQUARE.png" group-title="GB · eglence",FailArmy
+https://jmp2.uk/stvp-GBAJ40003642
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1100008YW_20260609T043659SQUARE.png" group-title="GB · spor",FIFA+
 https://jmp2.uk/stvp-GBBD1100008YW
-#EXTINF:-1 tvg-logo="https://i.imgur.com/xy9ZxVO.png" group-title="GB · spor",FIFA+ Women
-https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3800009F0_20251028T010335SQUARE.png" group-title="GB · spor",FIFA+ Women
+https://jmp2.uk/stvp-GB3800009F0
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/2355a75e-cc71-4f8c-89bb-69587e8e4fc6/5thcd2457359e3d9e7c617b0296c36feb09OG_RDX_Color.png" group-title="GB · eglence",Fifth Gear (UK)
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-64106a1075be345a863fe0d7/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/bf7b3f7d-f3d7-49e7-a2f6-f81ab380f737/FilmRise_Creators_1500x1000_Dark_Logo.png" group-title="GB · eglence",FilmRise Creators
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-68db6b54475aa6420c85f230/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2700010NQ_20251013T054339SQUARE.png" group-title="GB · eglence",Flipping Nation
 https://jmp2.uk/stvp-GB2700010NQ
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/889dcf7a-99ec-425f-8044-087c84e8eefc/FrightFlix_logo_dark.png" group-title="GB · eglence",FrightFlix
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-621674502c2627c068e73ada/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1200010DG_20260811T045335SQUARE.png" group-title="GB · eglence",Garden Rescue
 https://jmp2.uk/stvp-GB1200010DG
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4oVcjLd.png" group-title="GB · belgesel",Get.Factual
@@ -469,14 +689,18 @@ https://lo3.gemporia.com/abrjewellerymaker/smil:livestreamFullHD.smil/playlist.m
 https://jmp2.uk/stvp-GBAJ49000197P
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2000007ID_20251013T054352SQUARE.png" group-title="GB · eglence",LADbible
 https://jmp2.uk/stvp-GB2000007ID
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mUHixbi.png" group-title="GB · eglence",Magnavision TV
+https://manatv.akamaized.net/120723/smil:magnavision.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3600001XM_20251202T002708SQUARE.png" group-title="GB · eglence",Medical Detectives
 https://jmp2.uk/stvp-GB3600001XM
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2700009R7_20250107T031150SQUARE.png" group-title="GB · eglence",Modern Marvels
 https://jmp2.uk/stvp-GB2700009R7
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA1500006H6_20250107T022613SQUARE.png" group-title="GB · spor",MotorRacing
 https://jmp2.uk/stvp-GBBA1500006H6
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB300032DX_20250218T040923SQUARE.png" group-title="GB · eglence",Now 70's
+https://jmp2.uk/stvp-GB300032DX
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qiCCX5X.png" group-title="GB · eglence",Now 70s
-https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
+https://lightningnow70-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/26uv1ww.png" group-title="GB · haber",NTD TV English UK
 https://ntd02.akamaized.net/NTD-UK/index.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1200011U5_20260811T045340SQUARE.png" group-title="GB · eglence",Obsessive Compulsive Cleaners
@@ -485,8 +709,6 @@ https://jmp2.uk/stvp-GB1200011U5
 https://jmp2.uk/stvp-GBBD500005ZG
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB330000144_20250624T020553SQUARE.png" group-title="GB · eglence",RugbyPass TV
 https://jmp2.uk/stvp-GB330000144
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c3/Sangat_TV_logo.png" group-title="GB · eglence",Sangat TV
-https://mumt06.tangotv.in/qYyB8fXVSANGATTV/index.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1300001WA_20250107T030751SQUARE.png" group-title="GB · cocuk",Smurf TV
 https://jmp2.uk/stvp-GBBD1300001WA
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wZ2uj9d.png" group-title="GB · eglence",So… Real
@@ -507,8 +729,8 @@ https://rightsboosterltd-scl-1-eu.rakuten.wurl.tv/playlist.m3u8
 https://jmp2.uk/stvp-GBBC90001089
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1200012BV_20260811T045344SQUARE.png" group-title="GB · eglence",Tattoo Fixers
 https://jmp2.uk/stvp-GB1200012BV
-#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2400007FA_20250819T032541SQUARE.png" group-title="GB · cocuk",Teletubbies
-https://jmp2.uk/stvp-GB2400007FA
+#EXTINF:-1 tvg-logo="https://i.imgur.com/J9iWjWL.png" group-title="GB · cocuk",Teletubbies
+https://dv8lsrd8fecw9.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB1200013SK_20260811T045349SQUARE.png" group-title="GB · eglence",The Cube
 https://jmp2.uk/stvp-GB1200013SK
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yH7n2dF.png" group-title="GB · dizi",The Pet Collective
@@ -525,14 +747,20 @@ https://jmp2.uk/stvp-GB3700009AO
 https://d1taaads3ztvmu.cloudfront.net/120723/smil:lifeokuk.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 tvg-logo="https://i.imgur.com/PXGqyLn.png" group-title="GB · eglence",V2BEAT
 https://abr.de1se01.v2beat.live/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://vantagetv.ee/vantage_music.png" group-title="GB · eglence",Vantage Music UK
+https://hls.vantagetv.co.uk/vmusicuk_stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vFpjggf.png" group-title="GB · eglence",ATN Bangla UK
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hJxFLvF.png" group-title="GB · belgesel",Channel S
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Zp62Nbd.png" group-title="GB · eglence",Deen TV
 https://cd198.anystream.uk:9092/iqapp/d33ntv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD4100010H1_20260804T051827SQUARE.png" group-title="GB · eglence",Crime Network
-https://jmp2.uk/stvp-GBBD4100010H1
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/3/epg/channels/logos/gracenote/3448598d6e7d76222339ebab0fe195fb.png" group-title="GB · eglence",48 Hours
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-668561babc1490a2f408f30d/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://provider-static.plex.tv/epg/cms/production/52b33d5e-f48e-472d-896c-94759eccc1e4/5-Minute_Crafts_1500x1000_White.png" group-title="GB · eglence",5-Minute Crafts
+https://epg.provider.plex.tv/library/parts/64305451fc3be5947773c339-63894c1965b848bf2c8a7800/?X-Plex-Token=WN1HUJLxBxfobeuq83gW
+#EXTINF:-1 tvg-logo="https://i.imgur.com/viB0FS2.png" group-title="GB · eglence",Canaf54 TV
+https://5caf24a595d94.streamlock.net:1937/pvyugfkzkc/pvyugfkzkc/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD1100003I0_20250107T030715SQUARE.png" group-title="GB · eglence",Love Pets
 https://jmp2.uk/stvp-GBBD1100003I0
 #EXTINF:-1 tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="GB · cocuk",Nickelodeon
@@ -541,12 +769,12 @@ http://tvsen7.aynascope.net/nicklodean/index.m3u8
 https://tvsen6.aynaott.com/skynature/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Cl1iGEb.jpeg" group-title="GB · eglence",Latest TV
 https://5a0e89631aa14.streamlock.net/live/LatestTelevision/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/QFPRaXK.png" group-title="GB · dizi",5 Cops
-https://jmp2.uk/plu-5d2c571faeb3e2738ae27933.m3u8
+#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBAK3504500A_20260804T051725SQUARE.png" group-title="GB · eglence",5 Cops
+https://jmp2.uk/stvp-GBAK3504500A
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/63c1384e829c850007922ca4/colorLogoPNG.png" group-title="GB · eglence",5 Emergency Rescue
 https://jmp2.uk/plu-63c1384e829c850007922ca4.m3u8
-#EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBAK3504501A_20250107T022511SQUARE.png" group-title="GB · eglence",5 Exploring Britain
-https://jmp2.uk/stvp-GBAK3504501A
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5ddf901280e3550009139c86/colorLogoPNG.png" group-title="GB · eglence",5 Exploring Britain
+https://jmp2.uk/plu-5ddf901280e3550009139c86.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/656df2849d5ac400083be647/colorLogoPNG.png" group-title="GB · eglence",5 Trucking Hell
 https://jmp2.uk/plu-656df2849d5ac400083be647.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/64ff1d92d545e9000877fba4/colorLogoPNG.png" group-title="GB · eglence",A Haunting
@@ -575,40 +803,28 @@ https://jmp2.uk/plu-62ac405b3874370007419b7f.m3u8
 https://jmp2.uk/plu-65a7b01907e03a0008913e8f.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3uXQg7Y.png" group-title="GB · eglence",Beyond Belief: Fact or Fiction
 https://jmp2.uk/plu-611f85396abc84000738417b.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/660be37e7bcd860008793a6a/colorLogoPNG.png" group-title="GB · belgesel",Bondi Rescue
-https://jmp2.uk/plu-660be37e7bcd860008793a6a.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Brit_Asia.png" group-title="GB · eglence",Brit Asia TV
 https://hls.autopo.st/hls/britasiatv/index.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/65031534d545e9000881ed10/colorLogoPNG.png" group-title="GB · film",British Screen Classics
-https://jmp2.uk/plu-65031534d545e9000881ed10.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6960c5a906d76f50db2816dc/colorLogoPNG_1767949823270.png" group-title="GB · dizi",Cagney & Lacey
 https://jmp2.uk/plu-6960c5a906d76f50db2816dc.m3u8
 #EXTINF:-1 tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA330003941_20251013T054307SQUARE.png" group-title="GB · eglence",Catfish
 https://jmp2.uk/stvp-GBBA330003941
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6231eb3865be650007f59595/colorLogoPNG.png" group-title="GB · haber",CBS News 24/7
 https://jmp2.uk/plu-6231eb3865be650007f59595.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/68c8202f5ec82769fdfcd0a2/colorLogoPNG_1765877993411.png" group-title="GB · eglence",Chaos on Cam
-https://jmp2.uk/plu-68c8202f5ec82769fdfcd0a2.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/66c45afaa72e7b0008a2b153/colorLogoPNG_1775663059595.png" group-title="GB · haber",CNNi
 https://jmp2.uk/plu-66c45afaa72e7b0008a2b153.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6514346fa76507000887d441/colorLogoPNG.png" group-title="GB · eglence",Confess by Nosey
 https://jmp2.uk/plu-6514346fa76507000887d441.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/661cf62d24e1d000087dae0d/colorLogoPNG.png" group-title="GB · eglence",COPS
 https://jmp2.uk/plu-661cf62d24e1d000087dae0d.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/667d664815f35c00089489bf/colorLogoPNG.png" group-title="GB · dizi",Corner Gas
-https://jmp2.uk/plu-667d664815f35c00089489bf.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/66ba1e23d2d50d00084a1e57/colorLogoPNG.png" group-title="GB · eglence",Crimes That Shook Britain
 https://jmp2.uk/plu-66ba1e23d2d50d00084a1e57.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/650315163a0d700008bb07f8/colorLogoPNG_1775634705053.png" group-title="GB · eglence",Criminal Confessions
-https://jmp2.uk/plu-650315163a0d700008bb07f8.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6304f8d5ffb61000071ab478/colorLogoPNG.png" group-title="GB · dizi",CSI: Crime Scene Investigation
 https://jmp2.uk/plu-6304f8d5ffb61000071ab478.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/68b5a7b69ac85c428f54c441/colorLogoPNG_1762359402221.png" group-title="GB · film",Curzon
 https://jmp2.uk/plu-68b5a7b69ac85c428f54c441.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/VsW3Jsrz/logo-DAZN-Combat.png" group-title="GB · spor",DAZN Combat
 https://jmp2.uk/plu-64d626ac9b414d000820e2fc.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/69c6a93486431735d974bc2a/colorLogoPNG_1778165757861.png" group-title="GB · eglence",Deal Masters
-https://jmp2.uk/plu-69c6a93486431735d974bc2a.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Der%20TV.jpeg" group-title="GB · eglence",Der TV
 https://stream.berosat.live/hls/der-tv/der-tv.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/69d51f98fcb9bf5e303ca0c1/colorLogoPNG_1777472699054.png" group-title="GB · eglence",Dinner Date
@@ -633,26 +849,20 @@ https://jmp2.uk/plu-65a6a5e90c7ff50008cb9815.m3u8
 https://jmp2.uk/plu-65c4960d11ced7000812c433.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/a0jOxez.png" group-title="GB · dizi",Ghost Dimension
 https://jmp2.uk/plu-619e1bb3e9af5a0007f235ad.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f27bbe4779de70007a6d1c1/colorLogoPNG.png" group-title="GB · eglence",Ghost Hunters
-https://jmp2.uk/plu-5f27bbe4779de70007a6d1c1.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/66ba1e4446762a000855cd87/colorLogoPNG.png" group-title="GB · dizi",Girlfriends
+https://jmp2.uk/plu-66ba1e4446762a000855cd87.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/bM4VZDH.png" group-title="GB · eglence",Hala London
 https://halalondon-live.ercdn.net/halalondon/halalondon.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6319f06067a3ee000708af95/colorLogoPNG.png" group-title="GB · eglence",Haunt TV
 https://jmp2.uk/plu-6319f06067a3ee000708af95.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/68503d3bc692373f0158c43f/colorLogoPNG_1752574984915.png" group-title="GB · eglence",Hawaii Five-O
 https://jmp2.uk/plu-68503d3bc692373f0158c43f.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5e6f38792075160007d85823/colorLogoPNG.png" group-title="GB · eglence",Hell's Kitchen
-https://jmp2.uk/plu-5e6f38792075160007d85823.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/68e38aaf8082ad3760def7bc/colorLogoPNG_1770826301055.png" group-title="GB · eglence",Hercules: The Legendary Journeys
 https://jmp2.uk/plu-68e38aaf8082ad3760def7bc.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6081738748d3200007afb24b/colorLogoPNG.png" group-title="GB · eglence",Highway to Heaven
-https://jmp2.uk/plu-6081738748d3200007afb24b.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/65819fc1b9adc4000813f37d/colorLogoPNG.png" group-title="GB · belgesel",History Hunters
-https://jmp2.uk/plu-65819fc1b9adc4000813f37d.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/e6pvibn.png" group-title="GB · dizi",Highway to Heaven
+https://jmp2.uk/plu-68bff9a63efb41cd97562e46.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5c5c2e9d8002db3c3e0b1c72/colorLogoPNG.png" group-title="GB · eglence",Homes Under Hammer
 https://jmp2.uk/plu-5c5c2e9d8002db3c3e0b1c72.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ZSnATs0.png" group-title="GB · dizi",Homicide Hunter
-https://jmp2.uk/plu-619e21b213ef6b0007d8c17a.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/68c82005be767928b4a8ef0c/colorLogoPNG_1766148080907.png" group-title="GB · eglence",I Survived...
 https://jmp2.uk/plu-68c82005be767928b4a8ef0c.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/686fc8fe1889b4ad04604704/colorLogoPNG_1759777262346.png" group-title="GB · film",Icons Unearthed+
@@ -691,8 +901,6 @@ https://jmp2.uk/plu-68e3c18130ee729844af1fca.m3u8
 https://jmp2.uk/plu-639b558c73423d00071ce624.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/645e00d5d3fdde000829463a/colorLogoPNG.png" group-title="GB · dizi",More TV Sci-fi
 https://jmp2.uk/plu-645e00d5d3fdde000829463a.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6081648340382e0007f73d45/colorLogoPNG_1780041479486.png" group-title="GB · eglence",Most Haunted
-https://jmp2.uk/plu-6081648340382e0007f73d45.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/68e3bffe1cfcd7541d59090f/colorLogoPNG_1762184625453.png" group-title="GB · eglence",Most Haunted: Unseen
 https://jmp2.uk/plu-68e3bffe1cfcd7541d59090f.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6401d85a49839300087b116c/colorLogoPNG.png" group-title="GB · film",Moviesphere
@@ -721,8 +929,6 @@ https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/3/3.m3u8
 https://jmp2.uk/plu-696e024a7e92438c27a425a8.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/68e3b6112baff9f069d02540/colorLogoPNG_1759760853522.png" group-title="GB · eglence",Relic Hunter
 https://jmp2.uk/plu-68e3b6112baff9f069d02540.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/682453731295f98347e92da8/colorLogoPNG_1747211233129.png" group-title="GB · eglence",River Monsters
-https://jmp2.uk/plu-682453731295f98347e92da8.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/63fe2ec4dff38e000835f786/colorLogoPNG.png" group-title="GB · eglence",Rookie Blue
 https://jmp2.uk/plu-63fe2ec4dff38e000835f786.m3u8
 #EXTINF:-1 tvg-logo="" group-title="GB · eglence",Rugby Pass TV
@@ -731,6 +937,8 @@ https://jmp2.uk/plu-66f137cb483d460008ece053.m3u8
 https://jmp2.uk/plu-66276091cee0d900085fe053.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6a3a463fd7a42182ccd2d0b1/colorLogoPNG_1785310990240.png" group-title="GB · eglence",Sam and Colby
 https://jmp2.uk/plu-6a3a463fd7a42182ccd2d0b1.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6a5646b29958da78eaa083bd/colorLogoPNG_1784039133556.png" group-title="GB · eglence",Sea Patrol
+https://jmp2.uk/plu-6a5646b29958da78eaa083bd.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HYEABSt.png" group-title="GB · belgesel",Sensing Murder
 https://jmp2.uk/plu-5e9ed47c26ebb000074af566.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6695294632e25300084bb61b/colorLogoPNG.png" group-title="GB · dizi",Sister Sister
@@ -749,10 +957,10 @@ https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
 https://jmp2.uk/plu-69b91797611b4a9fce103037.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/69c3c6c912e978ee49277dc7/colorLogoPNG_1779185580246.png" group-title="GB · eglence",That's 60s
 https://jmp2.uk/plu-69c3c6c912e978ee49277dc7.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/64c37e710e086a0009e824ab/colorLogoPNG_1771232729979.png" group-title="GB · eglence",That's 70s
-https://jmp2.uk/plu-64c37e710e086a0009e824ab.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6490254fd2c47c00083a5743/colorLogoPNG_1771233599160.png" group-title="GB · eglence",That's 80s
-https://jmp2.uk/plu-6490254fd2c47c00083a5743.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/j2q53JQ.png" group-title="GB · eglence",That's 70s
+https://jmp2.uk/plu-69ef53e12f4d2b4f9c582e76.m3u8
+#EXTINF:-1 tvg-logo="" group-title="GB · eglence",That's 80s
+https://jmp2.uk/plu-69ef54f3c700cf0140272def.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/660c209e19ca71000846cf38/colorLogoPNG_1771233902958.png" group-title="GB · eglence",That's 90s00s
 https://jmp2.uk/plu-660c209e19ca71000846cf38.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6568a78d635c3c0008765f41/colorLogoPNG_1771232975260.png" group-title="GB · eglence",That's Rock
@@ -761,8 +969,6 @@ https://jmp2.uk/plu-6568a78d635c3c0008765f41.m3u8
 https://jmp2.uk/plu-677fb08f5b68381e2dbfd5af.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6a5e2f0b7ac97ec200c8ab02/colorLogoPNG_1785738435655.png" group-title="GB · eglence",The First 48 & Beyond
 https://jmp2.uk/plu-6a5e2f0b7ac97ec200c8ab02.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/66e06576abec540008cc17a9/colorLogoPNG.png" group-title="GB · eglence",The Graham Norton Show
-https://jmp2.uk/plu-66e06576abec540008cc17a9.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/68e38b6e20115bbaf9c91083/colorLogoPNG_1761664189516.png" group-title="GB · eglence",The Incredible Hulk
 https://jmp2.uk/plu-68e38b6e20115bbaf9c91083.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1caOriu.png" group-title="GB · eglence",The Nanny
@@ -803,8 +1009,6 @@ https://jmp2.uk/plu-672cb91149c40600081cbee5.m3u8
 https://jmp2.uk/plu-63693fa2bfa0690007ebc880.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kyVB8Ik.png" group-title="GB · dizi",Wild at Heart
 https://jmp2.uk/plu-60817936fd2d70000763d2b2.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/68c820525ec82769fdfcd104/colorLogoPNG_1765359753710.png" group-title="GB · spor",Wrestling Legends TV
-https://jmp2.uk/plu-68c820525ec82769fdfcd104.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/677fb0b33a225c2d0d8a17be/colorLogoPNG_1761690271873.png" group-title="GB · eglence",Xena: Warrior Princess
 https://jmp2.uk/plu-677fb0b33a225c2d0d8a17be.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/lNGJGjy.png" group-title="GB · diger",Ahlulbayt TV
@@ -821,6 +1025,8 @@ https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica1/playlist.m3u8
 https://chlivemta.akamaized.net/hls/live/2010555/mtaafrica2/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/CF6X9wB.png" group-title="GB · diger",MTA8 America
 https://chlivemta.akamaized.net/hls/live/2016718/mta8/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/10000/10000/skychb1041.png" group-title="GB · diger",Panjab TV
+https://panjabtv.akamaized.net/panjabtv/panjabtvhlsout/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://image.roku.com/developer_channels/prod/8389e15af8fe49ac7c36d201c24ebf62fbe5b22897c2879ca26ae936e0ed308d.png" group-title="GB · diger",Safeer TV
 https://cdn3.wowza.com/1/YStGZlJRdktzZkdK/VXROZWNW/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fk5rEje.png" group-title="GB · diger",TJC
@@ -837,6 +1043,8 @@ https://cdn3.wowza.com/5/L1Uzd2FrbVlLRG1W/live/smil:lwukweb.smil/playlist.m3u8
 https://sscsott.com/srt/noortvuk/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/AU5vSPF.png" group-title="GB · diger",Sanskar UK
 https://d34z4embz0hjf6.cloudfront.net/out/v1/7ac2789ff9a544a49337d1ffc54ce61c/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hW4g2oe.png" group-title="GB · diger",GOD TV
+https://fl-dvr.iptvcdn.tv/chid_1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/K81vNbk.png" group-title="GB · diger",Akaal Channel
 https://cdn-globecast.akamaized.net/live/eds/akaal_tv/hls1_smart_akaal/akaal_tv.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/6TWUVrh.png" group-title="GB · diger",QVC UK
@@ -847,5 +1055,5 @@ https://qvcuk-live.akamaized.net/hls/live/2097112/qby/master.m3u8
 https://qvcuk-live.akamaized.net/hls/live/2097112/qex/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/6HZlLL3.png" group-title="GB · diger",QVC UK Style
 https://qvcuk-live.akamaized.net/hls/live/2097112/qst/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/hW4g2oe.png" group-title="GB · diger",GOD TV
-https://d1msejlow1t3l4.cloudfront.net/211125/godtv/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pTn8Vc3.png" group-title="GB · diger",Miracle TV
+https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_030/Stream/playlist.m3u8
