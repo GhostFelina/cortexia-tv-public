@@ -355,7 +355,9 @@ let srcIdx = 0;             // o an denenen adres (0 = birincil, sonrası c.alt)
 /** kanalın deneme sırasındaki adresleri: birincil + yedekler */
 function urlsOf(c) {
   const list = [c.url, ...(c.alt || [])];
-  return PROXY ? list : list.slice(0, 1);   // doğrudan modda yalnızca doğrulanmış birincil
+  // Doğrudan modda yalnızca web için doğrulanmış tek adres: probe-web.mjs
+  // birincil adres tarayıcıda açılmıyorsa çalışan yedeği `wu` alanına yazar.
+  return PROXY ? list : [c.wu || c.url];
 }
 
 // favori/geçmiş anahtarı ülkeyi de taşır (aynı ad iki ülkede olabilir)
@@ -369,14 +371,18 @@ const pool = () => ALL.filter(c => c.co === CO);
 
 /**
  * Yerel sunucu yokken (statik web sürümü) oynatılabilir mi?
- *  TV    : yayın kendi CORS başlığını göndermeli (hls.js manifesti fetch ile okur)
+ *  TV    : `w` — probe-web.mjs zincirin tamamını (manifest → varyant → segment)
+ *          tarayıcının kurallarıyla dener: https, geçerli CORS *değeri*, her
+ *          adımda 2xx. Başlığın yalnızca var olması yetmez; Pluto/Samsung
+ *          "access-control-allow-origin: http://pluto.tv" gönderir ve tarayıcı
+ *          bunu reddeder. Bu yüzden `d` (ham CORS varlığı) burada kullanılmaz.
  *  Radyo : sayfa https olduğundan yayın da https olmalı; HLS ise ayrıca CORS
  */
 function webPlayable(c) {
   // t = sertifikası geçerli (https sayfada gecersiz sertifikali kaynak oynatilamaz)
   if (c.t === 0) return false;
   if (isRadio()) return !!c.s && (!c.hls || !!c.d);
-  return !!c.d;
+  return c.w === 1;
 }
 
 const esc = (s) => String(s).replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));

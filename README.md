@@ -1,18 +1,21 @@
 # 📺 Cortexia TV
 
-Doğrulanmış canlı **TV ve radyo** — 6 ülke, **3559 kanal + 2801 radyo istasyonu**.
+Doğrulanmış canlı **TV ve radyo** — 6 ülke, **4192 kanal + 2904 radyo istasyonu**.
 Her yayın adresi `manifest → varyant → gerçek segment baytı` düzeyinde test edilir;
 yalnızca gerçekten çalışanlar listeye girer. Dil pratiği için altyazı (CC) desteği,
 yayın akışı (EPG) ve yedek adres devri ile.
 
-| Ülke | Kanal | HD | Altyazılı | Yayın akışı | 📻 Radyo |
-|---|---:|---:|---:|:---:|---:|
-| 🇺🇸 ABD | 1936 | 1191 | 1209 | ✓ | 507 |
-| 🇬🇧 İngiltere | 425 | 230 | 289 | ✓ | 501 |
-| 🇪🇸 İspanya | 411 | 211 | 214 | ✓ | 469 |
-| 🇲🇽 Meksika | 314 | 96 | 190 | ✓ | 409 |
-| 🇦🇷 Arjantin | 321 | 62 | 186 | ✓ | 514 |
-| 🇹🇷 Türkiye | 152 | 122 | 1 | — | 401 |
+| Ülke | Kanal | HD | Altyazılı | Web'de | 📻 Radyo |
+|---|---:|---:|---:|---:|---:|
+| 🇺🇸 ABD | 2346 | 1602 | 1459 | 1099 | 520 |
+| 🇬🇧 İngiltere | 529 | 344 | 359 | 251 | 510 |
+| 🇪🇸 İspanya | 496 | 305 | 255 | 248 | 505 |
+| 🇲🇽 Meksika | 366 | 140 | 240 | 76 | 458 |
+| 🇦🇷 Arjantin | 334 | 67 | 199 | 96 | 504 |
+| 🇹🇷 Türkiye | 121 | 100 | 0 | 106 | 407 |
+
+"Web'de" sütunu statik sürümde tarayıcının gerçekten açabildiği kanal
+sayısıdır — aşağıya bakın. Yerel sürümde kanalların tamamı oynar.
 
 Sol üstteki **📺 TV / 📻 Radyo** düğmesiyle geçiş yapılır; ülke seçimi ikisinde de geçerlidir.
 
@@ -24,14 +27,32 @@ Sol üstteki **📺 TV / 📻 Radyo** düğmesiyle geçiş yapılır; ülke seç
 Sunucu HLS manifestlerini kendi proxy'sine yeniden yazarak tarayıcının CORS
 engelini aşar; hotlink koruması olan logoları da o taşır.
 
-**Web (statik sürüm)** — sunucusuz, doğrudan oynatma. Kanalların
-**%98'i (3478)** kendi CORS başlığını gönderip geçerli sertifika sunduğu için tarayıcıda proxy olmadan
-açılır. Radyoda ölçüt farklı: sayfa https olduğundan istasyonun da https olması
-gerekir (**2052 istasyon**), HLS ise ayrıca CORS. Sertifikası geçersiz
-kaynaklar web sürümünde listelenmez — tarayıcı zaten oynatmaz; yerelde
-proxy üzerinden çalışmayı sürdürürler. Ses/video hiçbir zaman siteden
-geçmez, doğrudan yayıncıdan gelir. Oynatıcı hangi ortamda olduğunu `/__local`
-uç noktasıyla kendi anlar.
+**Web (statik sürüm)** — sunucusuz, doğrudan oynatma. Burada kanalların
+**%45'i (1876)** açılır; gerisi tarayıcının kurallarına takılır ve *listelenmez*.
+Ölçüt üç maddedir ve üçü birden sağlanmalıdır:
+
+1. **https** — https sayfada `http://` yayın karışık içerik sayılıp engellenir
+2. **Geçerli CORS değeri** — başlığın var olması yetmez. Pluto/Samsung TV Plus
+   kaynakları `access-control-allow-origin: http://pluto.tv` gönderir; tarayıcı
+   bunu reddeder. Kabul edilen yalnızca `*` ya da sitenin tam adresidir.
+3. **Zincirin tamamı** — hls.js manifesti, varyantı ve segmenti *ayrı ayrı*
+   ister; varyant başka host'ta olabilir ve çok sayıda kaynak yalnızca segmentte
+   403 döner.
+
+Bunu `probe-web.mjs` ölçer ve sonucu `w` bayrağına yazar. Birincil adres
+tarayıcıda açılmazsa doğrulanmış yedekler denenir; çalışan bulunursa `wu`
+alanına yazılır (**120 kanal** böyle kurtuluyor). `url` değişmez — yerel sürüm
+proxy üzerinden birincil adresi oynatmayı sürdürür.
+
+Meksika ve Arjantin oranlarının düşük olmasının sebebi kataloglarının büyük
+ölçüde Pluto TV kaynaklı olmasıdır; o kanallar yerel sürümde sorunsuz çalışır.
+
+Radyoda ölçüt farklı: sayfa https olduğundan istasyonun da https olması gerekir
+(**2126 istasyon**), HLS ise ayrıca CORS. Sertifikası geçersiz kaynaklar web
+sürümünde listelenmez — tarayıcı zaten oynatmaz; yerelde proxy üzerinden
+çalışmayı sürdürürler. Ses/video hiçbir zaman siteden geçmez, doğrudan
+yayıncıdan gelir. Oynatıcı hangi ortamda olduğunu `/__local` uç noktasıyla
+kendi anlar.
 
 ## Kurulum (başka bir bilgisayara)
 
@@ -92,7 +113,8 @@ Kanallari-Yenile.bat
   ├── fetch-radio.mjs      Radio Browser'dan istasyonlar
   ├── test-radio.mjs       ICY akışı / HLS / .pls doğrulaması
   ├── build-radio.mjs      radyo kataloğu (tür, bit hızı, popülerlik)
-  └── probe-tls.mjs        sertifika geçerliliği (web sürümü için şart)
+  ├── probe-tls.mjs        sertifika geçerliliği (web sürümü için şart)
+  └── probe-web.mjs        web sürümünde gerçekten oynayanlar (w / wu)
 
 server.mjs (yerel)
   ├── public/index.html    arayüz + hls.js (yerel, CDN'e bağımlı değil)

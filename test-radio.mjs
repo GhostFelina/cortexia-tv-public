@@ -16,6 +16,12 @@ const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const agentHttps = new https.Agent({ rejectUnauthorized: false, keepAlive: false });
 
 /** Istek at, yaniti dondur (yonlendirmeleri izler). */
+// CORS basligi tarayici icin gecerli mi? VARLIGI yetmez: bircok kaynak basligi
+// kendi alan adiyla gonderir ve tarayici bunu reddeder. Gecerli olan yalnizca
+// yildiz ya da istegi yapan origin'in tam eslesmesidir.
+const ORIGIN = 'https://localhost';
+const corsOk = (v) => v === '*' || v === ORIGIN;
+
 function req(url, { headers = {}, depth = 0, timeout = 12000 } = {}) {
   return new Promise((resolve, reject) => {
     if (depth > 4) return reject(new Error('cok fazla yonlendirme'));
@@ -24,7 +30,7 @@ function req(url, { headers = {}, depth = 0, timeout = 12000 } = {}) {
     if (u.protocol !== 'http:' && u.protocol !== 'https:') return reject(new Error('sema'));
     const mod = u.protocol === 'https:' ? https : http;
     const r = mod.request(u, {
-      headers: { 'User-Agent': UA, 'Accept': '*/*', 'Icy-MetaData': '1', 'Origin': 'https://localhost', ...headers },
+      headers: { 'User-Agent': UA, 'Accept': '*/*', 'Icy-MetaData': '1', 'Origin': ORIGIN, ...headers },
       ...(u.protocol === 'https:' ? { agent: agentHttps } : {}),
     }, (res) => {
       const loc = res.headers.location;
@@ -74,7 +80,7 @@ async function check(st, depth = 0) {
   try {
     const res = await req(out.url);
     const status = res.statusCode || 0;
-    out.cors = !!res.headers['access-control-allow-origin'];
+    out.cors = corsOk(res.headers['access-control-allow-origin']);
     out.ct = String(res.headers['content-type'] || '').split(';')[0].toLowerCase();
     if (res.headers['icy-name']) out.icy = String(res.headers['icy-name']).slice(0, 60);
     if (res.headers['icy-br'] && !out.bitrate) out.bitrate = parseInt(res.headers['icy-br'], 10) || 0;

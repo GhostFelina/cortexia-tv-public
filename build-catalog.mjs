@@ -209,15 +209,21 @@ list.sort((a, b) =>
   (b.pop - a.pop) || (b.h - a.h) || a.name.localeCompare(b.name, 'en'));
 list.forEach((c, i) => { c.i = i; });
 
-// mevcut CC bayraklarini koru (probe-cc.mjs sonradan gunceller)
+// Mevcut bayraklari koru; ilgili tarayicilar sonradan uzerine yazar:
+//   cc -> probe-cc.mjs, t -> probe-tls.mjs, w/wu -> probe-web.mjs
+// Tarama adimlarindan biri atlanirsa kanal bayraksiz kalmasin diye tasiniyor.
+// Not: adres degismis olabilecegi icin bu degerler gecicidir, taramalar kesin.
 try {
   const old = JSON.parse(fs.readFileSync('public/channels.json', 'utf8'));
-  const keep = new Map(old.channels.map((c) => [(c.co || 'us') + '|' + c.name, { cc: c.cc, t: c.t }]));
+  const keep = new Map(old.channels.map((c) =>
+    [(c.co || 'us') + '|' + c.name, { cc: c.cc, t: c.t, w: c.w, wu: c.wu }]));
   list.forEach((c) => {
     const v = keep.get(c.co + '|' + c.name);
     if (!v) return;
     if (v.cc !== undefined) c.cc = v.cc;
     if (v.t !== undefined) c.t = v.t;
+    if (v.w !== undefined) c.w = v.w;
+    if (v.wu !== undefined) c.wu = v.wu;
   });
 } catch { /* ilk calistirma */ }
 

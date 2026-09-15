@@ -91,6 +91,13 @@ jobs:
       - name: Sertifika taramasi
         run: node probe-tls.mjs
 
+      # Statik web surumunde gercekten oynayanlari isaretler (w / wu).
+      # Tarayicinin kurallariyla dener: https + gecerli CORS *degeri* + zincirin
+      # tamami (manifest -> varyant -> segment). Bu adim atlanirsa web surumu
+      # acilmayan kanallari listeler.
+      - name: Web oynatilabilirlik taramasi
+        run: node probe-web.mjs
+
       - name: Guvenlik denetimi
         run: node guvenlik-denetimi.mjs
 

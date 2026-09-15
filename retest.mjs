@@ -2,8 +2,15 @@ import fs from 'node:fs';
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 // AbortSignal.timeout: govde okunurken de gecerli kalir (fetch + r.text() birlikte)
+// CORS basligi tarayici icin gecerli mi? VARLIGI yetmez: Pluto/Samsung gibi
+// kaynaklar "access-control-allow-origin: http://pluto.tv" gonderir ve tarayici
+// bunu reddeder. Gecerli olan yalnizca yildiz ya da istegi yapan origin'in tam
+// eslesmesidir.
+const ORIGIN = 'http://localhost';
+const corsOk = (v) => v === '*' || v === ORIGIN;
+
 async function get(url, ms, range) {
-  const h = { 'User-Agent': UA, 'Accept': '*/*', 'Origin': 'http://localhost', 'Referer': 'http://localhost/' };
+  const h = { 'User-Agent': UA, 'Accept': '*/*', 'Origin': ORIGIN, 'Referer': ORIGIN + '/' };
   if (range) h['Range'] = range;
   return await fetch(url, { signal: AbortSignal.timeout(ms), headers: h, redirect: 'follow' });
 }
@@ -12,7 +19,7 @@ const abs = (b, r) => { try { return new URL(r, b).href; } catch { return null; 
 async function tryUrl(url) {
   const r = await get(url, 14000);
   if (!r.ok) return { why: 'HTTP ' + r.status };
-  const cors = !!r.headers.get('access-control-allow-origin');
+  const cors = corsOk(r.headers.get('access-control-allow-origin'));
   const finalUrl = r.url || url;
   const body = await r.text();
   if (!/#EXTM3U/.test(body)) return { why: 'm3u8-degil' };
