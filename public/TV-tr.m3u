@@ -1,8 +1,14 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" group-title="TR · eglence",TRT 1
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/960px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png" group-title="TR · haber",TRT Haber
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/JEA2xpv.png" group-title="TR · eglence",TRT World
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/960px-TRT_Avaz_logo.svg.png" group-title="TR · eglence",TRT Avaz
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/TRT_EBA_TV_logo.svg/960px-TRT_EBA_TV_logo.svg.png" group-title="TR · belgesel",TRT EBA
+https://tv-e-okul01.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/bUwarR0.png" group-title="TR · eglence",ATV Alanya
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="TR · eglence",ATV (Turkiye)
@@ -12,7 +18,7 @@ https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-2
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9o1atM6.png" group-title="TR · eglence",Kanal D (Turkiye)
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 #EXTINF:-1 tvg-logo="" group-title="TR · eglence",Kanal D Drama
-http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/KanalD_principal_SRT/playlist.m3u8
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png" group-title="TR · eglence",TV8 (Turkiye)
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wlfyj5l.png" group-title="TR · eglence",Kanal 7 Avrupa
@@ -23,6 +29,8 @@ https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8FO41es.png" group-title="TR · haber",24 TV
 https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PrxwKDw.png" group-title="TR · haber",TGRT Haber
+https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/xM0HA30.png" group-title="TR · haber",Halk TV SD
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ZhkZzLf.png" group-title="TR · spor",A Spor SD
@@ -35,8 +43,8 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/yyhWOZs.png" group-title="TR · eglence",TRT Arabi
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/fCHQYWS.png" group-title="TR · belgesel",TRT Genc
-https://tv-trtgenc.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8PmXz9t.png" group-title="TR · cocuk",TRT Diyanet Cocuk
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/JgUzRH8.png" group-title="TR · eglence",TRT Muzik
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/960px-TRT_T%C3%BCrk_logo.svg.png" group-title="TR · eglence",TRT Turk
@@ -75,8 +83,8 @@ https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5WYaoFZ.png" group-title="TR · eglence",Kanal 33
 https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/eikZj19.png" group-title="TR · eglence",Kanal Hayat
-https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FQKPjsm.png" group-title="TR · eglence",Kent Turk
+https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LeTP4zq.png" group-title="TR · eglence",Kocaeli TV
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/lWeJxm0.png" group-title="TR · haber",Life TV (Turkiye)
@@ -85,14 +93,12 @@ https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/q7iVchl.png" group-title="TR · haber",Mekameleen TV
 https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/C3m6w5S.png" group-title="TR · eglence",Meltem TV
-https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="TR · belgesel",Natural TV
 https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/e9ca6gc.png" group-title="TR · haber",OlayTurk TV
 https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/QpPteBO.png" group-title="TR · eglence",Power Dance
-https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/0RzUswR.png" group-title="TR · eglence",Power Love
+https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="TR · eglence",Power TV
 https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="TR · eglence",Power TV (Turkiye)
@@ -107,12 +113,16 @@ https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/UVGGrQd.png" group-title="TR · eglence",Semerkand TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3zHdkYG.png" group-title="TR · spor",TJK TV
+https://tjktv-live.tjk.org/tjktv.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/f0Soeob.png" group-title="TR · eglence",Ton TV
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8KO0uxn.png" group-title="TR · eglence",Urfa Natik TV
-https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tudXdOZ.png" group-title="TR · eglence",TV 264
+https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/jw0gB8L.png" group-title="TR · eglence",Vav TV
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="TR · eglence",Zarok TV
+https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/mgDCKiy.png" group-title="TR · eglence",Aksu TV
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XaJ7fp6.png" group-title="TR · eglence",Altas TV
@@ -145,8 +155,8 @@ http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
 https://yayin30.haber100.com/live/finansturk/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/JT5pp3Y.png" group-title="TR · haber",Guneydogu TV
 https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="TR · haber",Haber61 TV
-https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/2a2XUKl.png" group-title="TR · haber",Haber61 TV
+https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="TR · eglence",Hunat TV
 https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/51xCkXG.png" group-title="TR · eglence",Kanal 12
@@ -181,22 +191,22 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/cKQIK4i.png" group-title="TR · eglence",Sat 7 Turk
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/tr/2/2b/Spacetoon_logo.png" group-title="TR · cocuk",Spacetoon Turkey
-https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/64tph9N.png" group-title="TR · eglence",Sun RTV
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/tZpx32y.png" group-title="TR · eglence",Tempo TV
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Mbi0jbz.png" group-title="TR · eglence",Tivi 6
 https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8CtrYVb.png" group-title="TR · eglence",TV 1
+https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="TR · eglence",TV 41
 https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/k4R5CzO.png" group-title="TR · eglence",TV 52
+https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://van65tv.com/assets/images/logo/logo.png" group-title="TR · eglence",Van 65 TV
 https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rTBX6lS.png" group-title="TR · eglence",YOL TV
 https://live.yoltv.com/hls/stream.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="TR · eglence",Zarok TV
-https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3CWV8bS.png" group-title="TR · eglence",Mercan TV
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/agn47sQ.png" group-title="TR · haber",360
@@ -206,27 +216,13 @@ https://hls.4utv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GgEeTNr.png" group-title="TR · haber",Almahriah TV
 https://starmenajo.com/hls/almahriah/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/UBoBYUI.png" group-title="TR · eglence",BBC First Turkiye
-http://88.212.15.17/live/bbc_first/index.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/40/BeinSports2.svg/revision/latest?cb=20230910185720" group-title="TR · spor",beIN Sports 2 Turk
-https://andro.mangeinde4.lat/checklist/androstreamlivebs2.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/53/BeIN_Sports_3_2017_Rectangle.png/revision/latest/scale-to-width-down/1000?cb=20251213114000" group-title="TR · spor",beIN Sports 3 Turk
-https://andro.mangeinde4.lat/checklist/androstreamlivebs3.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/96/Logo_bein_sports_4.png/revision/latest/scale-to-width-down/1000?cb=20251213115820" group-title="TR · spor",beIN Sports 4 Turk
-https://andro.mangeinde4.lat/checklist/androstreamlivebs4.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/14/BeIN%2Bsports%2B5.png/revision/latest/scale-to-width-down/1000?cb=20251214104942" group-title="TR · spor",beIN Sports 5 Turk
-https://andro.mangeinde4.lat/checklist/androstreamlivebs5.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/QWo0x7S.jpg" group-title="TR · haber",beIN Sports Haber
-https://andro.mangeinde4.lat/checklist/androstreamlivebsh.m3u8
+http://88.212.7.14/live/bbc_first/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/TXDV1ty.png" group-title="TR · eglence",Bric ve Satranc TV
 http://139.162.182.79/live/test/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vJ8VaZi.png" group-title="TR · eglence",Dream Turk
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/x9kHsXo.png" group-title="TR · eglence",Euro D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="TR · spor",Eurosport 1 Turkiye
-https://andro.mangeinde4.lat/checklist/androstreamlivees1.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="TR · spor",Eurosport 2 Turkiye
-https://andro.mangeinde4.lat/checklist/androstreamlivees2.m3u8
 #EXTINF:-1 tvg-logo="" group-title="TR · film",Grand Cinema
 https://gcinemahls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" group-title="TR · eglence",Ilke TV
@@ -235,6 +231,8 @@ https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/gtUFmCD.png" group-title="TR · eglence",Med Muzik
 http://54.36.110.140/live3/live3.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="TR · eglence",NOW
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/02cDIBi.png" group-title="TR · eglence",Number 1 TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="TR · eglence",Persiana Turkiye
@@ -255,3 +253,5 @@ https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
 https://dost.stream.emsal.im/tv/live.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wwCysFs.png" group-title="TR · diger",Lalegul TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" group-title="TR · diger",TBMM TV
+https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8

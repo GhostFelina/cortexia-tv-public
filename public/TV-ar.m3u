@@ -3,20 +3,26 @@
 http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="AR · eglence",Telefe
 http://45.173.231.22:8000/play/a053/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="AR · eglence",Telefe Internacional
-http://190.108.83.69:8000/play/a08l/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HNcCX3h.png" group-title="AR · eglence",Telefe Internacional
+http://200.115.120.1:8000/play/ca016/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="AR · eglence",El Trece
 http://190.108.83.69:8000/play/a01d/index.m3u8
+#EXTINF:-1 tvg-logo="https://audios.radiosnet.com.ar/imgwikidat/img_cuerpo/canal+9+buenos+aires9.jpg" group-title="AR · eglence",Canal 9 Link
+https://617c5175c970b.streamlock.net:4444/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xqgRFpC.png" group-title="AR · eglence",Canal 9 Resistencia
+http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/PblsZxz.jpeg" group-title="AR · eglence",Canal 99 Miramar
 https://vivo.solumedia.com:19360/cardinal/cardinal.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/cJHP7bU.png" group-title="AR · eglence",El Nueve
+http://15.204.246.24:8080/elnueveHD/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LnXQkIU.png" group-title="AR · haber",A24
 http://138.59.227.20:8000/play/a05u/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/EWmshtx.png" group-title="AR · eglence",Net TV
-https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IhJ0BjF.png" group-title="AR · eglence",NET TV
+http://45.134.141.161:2200/ARG/Net_TV/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/THk9ARS.png" group-title="AR · spor",DeporTV
 http://158.172.155.130:8000/play/a09y/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="AR · spor",TyC Sports
-https://live-04-11-tyc-app-web.vodgc.net/tyc24/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="AR · spor",TyC Sports
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="AR · spor",TyC Sports USA
 http://45.170.130.224:8000/play/a020/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/uBBZR1X.png" group-title="AR · belgesel",Encuentro
@@ -137,16 +143,20 @@ https://jmp2.uk/plu-63a084934734f30007457b2c.m3u8
 https://mdstrm.com/live-stream-playlist/6931a0eb06778645348008e0.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" group-title="AR · film",AMC Latin America
 http://15.204.246.24:8080/AMCHD/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YqTNXDf.png" group-title="AR · eglence",Canal 2 Misiones
+https://nd106.republicaservers.com:4433/hls/canal2misioness/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hgj3CaR.jpeg" group-title="AR · eglence",Canal 2 NexTV Rafaela
 https://edge.enhdtv.com/nexthd/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Am7yMXg.png" group-title="AR · eglence",Canal 21 TV
 https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qB6I274.png" group-title="AR · eglence",Canal 4 Jujuy
 https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/y4pkxH3/Qtc8-M2-PG-400x400.jpg" group-title="AR · haber",Canal E
-https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/G7TaQ1L.png" group-title="AR · eglence",Canal 8 Mar del Plata
+https://canal8mdq.unpocodeawita.workers.dev/
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HJkSz2U.png" group-title="AR · belgesel",Ciudad Magica
 https://lbgo.bozztv.com/ssh101/ssh101/verycoolfgr/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oL8SMTL.png" group-title="AR · eglence",Ciudad TV Resistencia
+https://617c5175c970b.streamlock.net:4444/chacodxdtv/livenew/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="AR · dizi",Comedy Central Latin America
 https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="AR · cocuk",Disney Channel Latin America
@@ -167,8 +177,6 @@ http://138.121.15.230:9002/EUROPA-EUROPA/index.m3u8
 https://edge.enhdtv.com/litustv/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="AR · eglence",MTV Latin America
 http://15.204.246.24:8080/MTVHD/index.m3u8
-#EXTINF:-1 tvg-logo="https://radioup.com.ar/wp-content/uploads/2025/06/logo-radioup-footer.png" group-title="AR · eglence",Radio UP
-https://iptv.ixfo.com.ar:30443/live/RadioUpTvStreaming/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/C1mY5X4.png" group-title="AR · eglence",Santa Fe Canal
 https://canalsantaferts.argtelemax.workers.dev/
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="AR · eglence",Sony Channel (Argentina)
@@ -187,6 +195,8 @@ https://streaming01.mikrolive.tv/bayrestv/live/playlist.m3u8
 https://stream.arcast.com.ar/casse/casse/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="AR · eglence",Cadena103.TV
 http://arcast.net:1935/cadena103/cadena103/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/b93YC0V.jpeg" group-title="AR · eglence",Canal 12 Venado Tuerto (1080i)
+https://nd106.republicaservers.com:4433/hls/diegologonitv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/OI97Sgq.png" group-title="AR · eglence",Canal 13 La Rioja
 http://arcast.net:1935/mp/mp/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/TOlncyp.png" group-title="AR · eglence",Canal 2 Gualeguay
@@ -213,10 +223,6 @@ https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
 https://stream.arcast.net:4443/correadigital/canal12/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6901dfd41a05195b77301d7b/b306e57e4_Logo-TV-C.png" group-title="AR · eglence",Cumbia Mix
 https://cloud.tvomix.com/CUMBIAMIX/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" group-title="AR · spor",ESPN 2 Latin America Argentina
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn2-mux/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/960px-ESPN3_Logo.png" group-title="AR · spor",ESPN 3 Latin America Argentina
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn3-mux/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="AR · spor",FIFA+ Hispanic America
 https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvomix.com/Logos/Kpopmix.png" group-title="AR · eglence",Kpop Mix
@@ -225,6 +231,8 @@ https://cloud.tvomix.com/KPOPMIX/index.m3u8
 https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HXRpRlK.png" group-title="AR · eglence",Misiones Cuatro
 https://iptv.ixfo.com.ar:30443/live-HD/MISIONES4/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="AR · eglence",NG Federal
+https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/15gMDG0.png" group-title="AR · eglence",PowerHD
 https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HXBLozl.png" group-title="AR · eglence",Radio TV Neuquen
@@ -237,22 +245,14 @@ https://video03.logicahost.com.br/retroclub02/retroclub02/playlist.m3u8
 https://media.neuquen.gov.ar/rtn/television/media.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/bGoGiry.png" group-title="AR · eglence",San Luis +
 https://stream.radiosmundiales.com/hls/sanluismas/sanluismas.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/960px-SpaceLogo.svg.png" group-title="AR · eglence",Space South
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/space.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/79sTxtP.png" group-title="AR · eglence",Telesol
 https://cdn1.tvlin.net/open/telesol/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tvomix.com/Logos/Urbanmix.png" group-title="AR · eglence",Urban Mix
 https://cloud.tvomix.com/URBANMIX/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/88MVgwX.png" group-title="AR · eglence",Tele Posadas SD
-https://iptv.ixfo.com.ar:30443/live/TelePosadasTv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mSn7ACs.png" group-title="AR · eglence",5tv
+https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/CEuPoqG.png" group-title="AR · haber",Catamarca TV
 https://stream.arcast.com.ar/canal7catamarca/ngrp:canal7catamarca_all/playlist.m3u8?DVR=
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gy7AEfO.png" group-title="AR · belgesel",Chacra TV
-https://5f700d5b2c46f.streamlock.net/chacratv/chacratv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="AR · cocuk",Disney Jr. Latin America South HD
-http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/disney_jr.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/500px-E%21_Logo_2012.svg.png" group-title="AR · haber",E! Latin America
-http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/entertainment.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/j2O4ndp.png" group-title="AR · eglence",Telemundo Internacional
 http://138.121.15.230:9002/TELEMUNDO/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4hDCB1M.png" group-title="AR · haber",24/7 Canal de Noticias
@@ -281,8 +281,6 @@ https://jmp2.uk/plu-5efb8c19b2678b000780d032.m3u8
 https://stream1.sersat.com/hls/argentinisima.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6759ee82bd523200083b4f0f/colorLogoPNG.png" group-title="AR · cocuk",Avatar: La Leyenda de Aang
 https://jmp2.uk/plu-6759ee82bd523200083b4f0f.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="AR · film",AXN Latin America South
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/axn.stream/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/63f7e3f9dff38e00082a57af/colorLogoPNG_1787686705454.png" group-title="AR · spor",AYM Sports 3
 https://jmp2.uk/plu-63f7e3f9dff38e00082a57af.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/646cce4d1593940008a33f09/colorLogoPNG.png" group-title="AR · eglence",Azteca Internacional
@@ -293,7 +291,7 @@ https://jmp2.uk/plu-619d5e6a093e7c0007489211.m3u8
 https://videostream.shockmedia.com.ar:19360/beatsradio/beatsradio.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6a15f7770ed14e790bab6449/colorLogoPNG_1782506664518.png" group-title="AR · dizi",Blue Bloods
 https://jmp2.uk/plu-6a15f7770ed14e790bab6449.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6254598f5083f800076d8563/colorLogoPNG_1789430846797.png" group-title="AR · cocuk",Bob Esponja Pantalones Cuadrados
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6254598f5083f800076d8563/colorLogoPNG_1792528902585.png" group-title="AR · cocuk",Bob Esponja Pantalones Cuadrados
 https://jmp2.uk/plu-6254598f5083f800076d8563.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/656f37f257fe4a000884dfee/colorLogoPNG.png" group-title="AR · eglence",Boruto: Naruto Next Generations
 https://jmp2.uk/plu-656f37f257fe4a000884dfee.m3u8
@@ -301,6 +299,8 @@ https://jmp2.uk/plu-656f37f257fe4a000884dfee.m3u8
 https://vivo.solumedia.com:19360/bragadato/bragadato.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/678029c654f43dad4b5c1ec0/colorLogoPNG.png" group-title="AR · eglence",Bromas Gags - Just for Laughs
 https://jmp2.uk/plu-678029c654f43dad4b5c1ec0.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/I06TSx0.png" group-title="AR · eglence",BVC
+https://vivo.solumedia.com:19360/bvnet/bvnet.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/673f7446030a2c0008231bc3/colorLogoPNG.png" group-title="AR · eglence",C4 en Alerta
 https://jmp2.uk/plu-673f7446030a2c0008231bc3.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/wlKFPBW.jpeg" group-title="AR · eglence",Canal 2 Mar del Plata
@@ -311,8 +311,6 @@ https://stmvideo6.livecastv.com/agenfor/agenfor/playlist.m3u8
 https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/IABFaH1.png" group-title="AR · eglence",Canal 3 Pinamar
 http://intelincloud01.com.ar/hls/cn3/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/RKvSa52.jpeg" group-title="AR · eglence",Canal 3 Tacural
-http://vivo.canal3tacural.com.ar:8081/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/XyiNvbY.png" group-title="AR · eglence",Canal 4 Teleaire
 https://stmvideo6.livecastv.com/canal4/canal4/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ZKSnGfw.png" group-title="AR · eglence",Canal 4 Villa Dolores
@@ -337,8 +335,6 @@ https://streamconex.com:19360/puan/puan.m3u8
 https://streamconex.com:19360/santaclara-1/santaclara-1.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HYuSqJy.png" group-title="AR · eglence",Canal 79 Villa Maza
 https://streamconex.com:19360/villamaza/villamaza.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/G7TaQ1L.png" group-title="AR · eglence",Canal 8 Mar del Plata
-https://canal8mdq.unpocodeawita.workers.dev/
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/68224482c5d53e1351aaf2f2/colorLogoPNG_1751655767455.png" group-title="AR · eglence",Canal Claro
 https://jmp2.uk/plu-68224482c5d53e1351aaf2f2.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/bXHHtcb.png" group-title="AR · eglence",Canal Provincial
@@ -349,12 +345,12 @@ https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8
 https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nPG38B2.png" group-title="AR · haber",Canal TDC
 https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/trmPKYw.png" group-title="AR · belgesel",Canal Universidad
+https://videostream.shockmedia.com.ar/hls/canaluniversidadmdp/canaluniversidadmdp.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/64666345f3f5b1000882bfb4/colorLogoPNG.png" group-title="AR · eglence",Captain Tsubasa
 https://jmp2.uk/plu-64666345f3f5b1000882bfb4.m3u8
 #EXTINF:-1 tvg-logo="" group-title="AR · eglence",Caras TV
 http://190.61.90.17:40000/play/a043/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="AR · cocuk",Cartoon Network Latin America
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cartoonnetwork.stream/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="AR · cocuk",Cartoon Network Latin America South Atlantic
 http://158.172.217.18:8000/play/a03a/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/62310d5a5dc9550007c6f580/colorLogoPNG_1778002301638.png" group-title="AR · haber",CBS News 24/7
@@ -365,8 +361,6 @@ https://jmp2.uk/plu-6a7b453df5f14c2045f5f00b.m3u8
 https://vivo.solumedia.com:19360/celta/celta.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/JigzJck.png" group-title="AR · eglence",Chamame TV
 https://srv4.zcast.com.br/chamametv/chamametv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/960px-CinecanalLA.png" group-title="AR · film",Cinecanal South
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/Cinecanal-key/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/699f405a0c8827936bd287bf/colorLogoPNG_1774560648913.png" group-title="AR · eglence",Cinépolis Channel
 https://jmp2.uk/plu-699f405a0c8827936bd287bf.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/609ae5cd48d3200007b0a98e/colorLogoPNG_1764595225705.png" group-title="AR · eglence",Comedy Central South Park
@@ -387,14 +381,10 @@ https://jmp2.uk/plu-63eb9255c111bc0008fe6ec4.m3u8
 https://jmp2.uk/plu-699769fa19ac123965833fd3.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/62d0895ebe7a970008785244/colorLogoPNG.png" group-title="AR · eglence",Daria
 https://jmp2.uk/plu-62d0895ebe7a970008785244.m3u8
-#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6aa7f375fad33265452a5658/colorLogoPNG_1790789032232.png" group-title="AR · dizi",Dead Zone
-https://jmp2.uk/plu-6aa7f375fad33265452a5658.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/626c2ed933a2890007e91422/colorLogoPNG.png" group-title="AR · eglence",Death Note
 https://jmp2.uk/plu-626c2ed933a2890007e91422.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6495af324c014a000842e923/colorLogoPNG.png" group-title="AR · eglence",Desafío Super Humanos
 https://jmp2.uk/plu-6495af324c014a000842e923.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="AR · cocuk",Disney Channel Latin America South
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/disney-channel-key/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="AR · cocuk",Disney Jr. Latin America South
 http://45.185.163.75:8000/play/a016/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5f9992c685a2a80007fa414a/colorLogoPNG.png" group-title="AR · eglence",Dog el cazarrecompensas
@@ -413,8 +403,8 @@ https://jmp2.uk/plu-5f4d3d06fb60d8000781fce8.m3u8
 https://jmp2.uk/plu-5f23102d5e239d00074b092a.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/699763d184235f26d5056002/colorLogoPNG_1773231206751.png" group-title="AR · eglence",Enchufe.TV
 https://jmp2.uk/plu-699763d184235f26d5056002.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" group-title="AR · spor",ESPN Latin America Argentina
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn-mux/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/960px-ESPN_Premium_logo.svg.png" group-title="AR · spor",ESPN Premium (Argentina) HD
+http://158.172.155.130:8000/play/a0ao/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5e972a21ad709d00074195ba/colorLogoPNG.png" group-title="AR · eglence",Estrellas de Acción
 https://jmp2.uk/plu-5e972a21ad709d00074195ba.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/619d59b7cbef25000728221c/colorLogoPNG_1781045575622.png" group-title="AR · eglence",Euronews Español
@@ -423,12 +413,12 @@ https://jmp2.uk/plu-619d59b7cbef25000728221c.m3u8
 https://jmp2.uk/plu-5ebaccf1734aaf0007142c86.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/66997d18a1b69e00082ee85f/colorLogoPNG_1749841168303.png" group-title="AR · spor",FIFA+
 https://jmp2.uk/plu-66997d18a1b69e00082ee85f.m3u8
+#EXTINF:-1 tvg-logo="" group-title="AR · film",Film & Arts
+http://200.115.120.1:8000/play/ca131/index.m3u8
 #EXTINF:-1 tvg-logo="https://folcloreando.com/wp-content/uploads/elementor/thumbs/logo-qvcz16ulfxe7qqvftihvlcoku8l2hux59qcndiy3qo.png" group-title="AR · eglence",Folcloreando TV
 https://stmvideo6.livecastv.com/radioactivasanjuan/radioactivasanjuan/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" group-title="AR · spor",Fox Sports
-http://138.59.227.20:8000/play/a085/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" group-title="AR · eglence",FX Latin America South
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/fx-key/chunks.m3u8
+#EXTINF:-1 tvg-logo="" group-title="AR · spor",Fox Sports
+http://158.172.155.130:8000/play/a09x/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="AR · spor",Garage TV Latin America
 https://stream1.sersat.com/hls/garagetv.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/67f95fa76b11614ab0caaef3/colorLogoPNG_1747414259619.png" group-title="AR · eglence",Hechiceras
@@ -531,8 +521,12 @@ https://jmp2.uk/plu-6851b909954170e0128bc71d.m3u8
 https://jmp2.uk/plu-5de91b7ea86ee60009d89e75.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5e98a911c881310007d7aae2/colorLogoPNG.png" group-title="AR · eglence",MTV Ridiculousness
 https://jmp2.uk/plu-5e98a911c881310007d7aae2.m3u8
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/66a01b52a4ee27000808ea36/colorLogoPNG.png" group-title="AR · eglence",MTV Rocks
+https://jmp2.uk/plu-66a01b52a4ee27000808ea36.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/620fd9f4afb9a80007a9c6d5/colorLogoPNG.png" group-title="AR · eglence",MTV Teen Mom
 https://jmp2.uk/plu-620fd9f4afb9a80007a9c6d5.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/jX0lqy3.png" group-title="AR · haber",Multivision Federal
+https://videostream.shockmedia.com.ar/hls/multivisionfederal/multivisionfederal.m3u8
 #EXTINF:-1 tvg-logo="" group-title="AR · eglence",MusicTop
 http://190.128.214.97:64333/play/a06o/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5ee92e72fb286e0007285fec/colorLogoPNG.png" group-title="AR · eglence",Naruto
@@ -571,8 +565,8 @@ http://138.59.227.20:8000/play/a05t/index.m3u8
 https://jmp2.uk/plu-64f6163a30ab3300083d870e.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6894febddbd49c964f3b66c8/colorLogoPNG_1756396393218.png" group-title="AR · eglence",Plato del Dia by elGourmet
 https://jmp2.uk/plu-6894febddbd49c964f3b66c8.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MYc8srh.png" group-title="AR · cocuk",Plim Plim
-http://200.115.120.1:8000/play/ca091/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="AR · cocuk",Plim Plim
+http://45.70.168.162:1503/play/a02a/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6870072ca9d5c45c3e9466f1/colorLogoPNG_1752173270400.png" group-title="AR · eglence",Pokémon
 https://jmp2.uk/plu-6870072ca9d5c45c3e9466f1.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/677d93afe650a700081e5f18/colorLogoPNG.png" group-title="AR · eglence",Popeye
@@ -615,6 +609,8 @@ https://jmp2.uk/plu-68b784d03e17b7676a0378f7.m3u8
 https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/604bdf4e6d0abc0007ba77ad/colorLogoPNG_1785345745095.png" group-title="AR · eglence",Sin Tetas No Hay Paraíso
 https://jmp2.uk/plu-604bdf4e6d0abc0007ba77ad.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/dyUxugT.png" group-title="AR · eglence",Solive TV
+https://stmv6.voxtvhd.com.br/solivetv/solivetv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/65df731cec9fda0008b7aa8d/colorLogoPNG.png" group-title="AR · eglence",South Park: Colección Cartman
 https://jmp2.uk/plu-65df731cec9fda0008b7aa8d.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/65df7272ec9fda0008b7a970/colorLogoPNG.png" group-title="AR · eglence",South Park: Colección Kenny
@@ -625,8 +621,6 @@ https://jmp2.uk/plu-65df73520d4561000817c29b.m3u8
 https://jmp2.uk/plu-65df72db18036500081a8292.m3u8
 #EXTINF:-1 tvg-logo="" group-title="AR · eglence",Space
 http://45.171.64.30:6060/play/a04n/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="AR · dizi",Star Channel Latin America South
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/StarChannel.stream/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6a739fb3c1842722eaf5eb1f/colorLogoPNG_1788376112882.png" group-title="AR · eglence",Stingray Época Dorada del Cine Mexicano
 https://jmp2.uk/plu-6a739fb3c1842722eaf5eb1f.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/6a73b8f1744143378ce88eae/colorLogoPNG_1788376177458.png" group-title="AR · eglence",Stingray Éxitos Regional Mexicano
@@ -653,10 +647,10 @@ https://jmp2.uk/plu-5ebacbcae43a6d000787b88e.m3u8
 https://jmp2.uk/plu-678aa0b3680721c77c5035dd.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/63dac1b78795f300086d5ca6/colorLogoPNG_1758309507155.png" group-title="AR · eglence",TikTok Radio en Español
 https://jmp2.uk/plu-63dac1b78795f300086d5ca6.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png" group-title="AR · eglence",TNT Latin America South
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/tnt/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.png" group-title="AR · dizi",TNT Series Latin America South
-https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/TNTseries.stream/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gsgXGEj.png" group-title="AR · eglence",TIV Television
+https://videohd.live:19360/8008/8008.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vFwPhPS.png" group-title="AR · haber",TN
+http://158.172.155.130:8000/play/a0dp/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5ff608e60e2996000768c366/colorLogoPNG.png" group-title="AR · eglence",Tokusato
 https://jmp2.uk/plu-5ff608e60e2996000768c366.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/67a52c8397782f00081879aa/colorLogoPNG.png" group-title="AR · spor",Top Barça
@@ -667,8 +661,6 @@ https://stmv1.voxtvhd.com.br/canal72tv2/canal72tv2/playlist.m3u8
 https://ca.centaurychile.com:2443/hls/mediospublicos.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/M0fMypR.png" group-title="AR · eglence",TV Solidaria
 https://canadaremar2.todostreaming.es/live/argentina-web.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="AR · belgesel",TV Universidad
-https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
 #EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/67a52cd4ec91870008a62164/colorLogoPNG_1772478524925.png" group-title="AR · spor",UFC
 https://jmp2.uk/plu-67a52cd4ec91870008a62164.m3u8
 #EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/720276300888453120/a_SDOmBc_400x400.jpg" group-title="AR · eglence",Uniteve
@@ -699,13 +691,11 @@ https://jmp2.uk/plu-5fceaab478f2af00080ff51f.m3u8
 https://jmp2.uk/plu-66b3af1c3a4ad200081c7d03.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/USD6Wn8.png" group-title="AR · diger",Canal Orbe 21
 https://stream.arcast.net:4443/canal21/ngrp:canal21_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/P9jgTz4/c49b986afb751882bcbee57f9c9b20d7-350x210.png" group-title="AR · diger",Radio Sublime Gracia TV
-https://5f700d5b2c46f.streamlock.net/sublime/sublime/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/jars0mP.png" group-title="AR · diger",TV Mana Argentina
 https://w2.manasat.com/tvmana-ar/smil:tvmana-ar.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/TLM592m.png" group-title="AR · diger",Unife TV
 https://cdn.mycloudstream.io/hls/live/broadcast/xundwjvp/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.canalsantamaria.com.ar/images/santamaria_logo.jpg" group-title="AR · diger",Canal Santa Maria
-https://streaming.telered.com.ar/santa-maria/streaming/mystream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/liyTNzK.png" group-title="AR · diger",Canal 6 Viento Recio
 https://stmvideo6.livecastv.com/vientorecio/vientorecio/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://www.canalsantamaria.com.ar/images/santamaria_logo.jpg" group-title="AR · diger",Canal Santa Maria
+https://streaming.telered.com.ar/santa-maria/streaming/mystream.m3u8
